@@ -1,4 +1,3 @@
-import React from 'react'
 import PrimaryHeading from '../common/PrimaryHeading'
 import Icon from '../common/Icons'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,19 +10,19 @@ import { SWIPER_DATA } from '../common/Helper';
 
 const Space = () => {
     return (
-        <div className='py-24'>
-            <div className="container mt-4 pt-0.5 pb-24">
-                <div className="flex justify-between items-end">
-                    <PrimaryHeading className='text-deep-blue mb-2' text='Our Spaces' />
-                    <p className='font-medium font-lato text-lg text-light-gray max-w-[452px]'>Our space is designed to give you a different experience when working with your team or personally</p>
-                    <div className="flex gap-6">
+        <div className='lg:py-24 md:py-20 sm:py-16 py-14'>
+            <div className="container mt-4 pt-0.5">
+                <div className="flex justify-between flex-col md:flex-row md:flex-wrap lg:flex-nowrap items-center md:items-end">
+                    <PrimaryHeading className='text-deep-blue mb-1 sm:mb-2' text='Our Spaces' />
+                    <p className='font-medium font-lato text-lg text-center md:text-left text-light-gray max-w-[452px]'>Our space is designed to give you a different experience when working with your team or personally</p>
+                    <div className="flex gap-6 w-full justify-center mt-5 lg:w-fit">
                         <Icon className='cursor-pointer customPrev transition_slow hover:scale-95' iconName='leftArrowIcon' />
                         <Icon className='cursor-pointer customNext transition_slow hover:scale-95' iconName='rightArrowIcon' />
                     </div>
                 </div>
-                <div className="mt-12 pt-1">
+                <div className="md:mt-12 sm:mt-8 mt-5 pt-1">
                     <Swiper
-                        slidesPerView={3}
+                        slidesPerView={1}
                         spaceBetween={30}
                         pagination={{
                             type: 'fraction',
@@ -40,6 +39,14 @@ const Space = () => {
                             swiper.params.navigation.nextEl = '.customNext';
                             swiper.navigation.init();
                             swiper.navigation.update();
+                        }}
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 2,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                            },
                         }}
                     >
                         {SWIPER_DATA.map((items, index) => (
