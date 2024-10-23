@@ -9,7 +9,7 @@ const PrimaryHeading = ({
     const sizeReducer = (100 / reduceBelow) * maxFontSize;
 
     return (
-        <h2 {...props} style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }} className={`${className}`}>
+        <h2 {...props} style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }} className={`${className} font-lora font-bold leading-custom-base`}>
             {text}
         </h2>
     );

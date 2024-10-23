@@ -24,14 +24,30 @@ module.exports = {
         'deep-blue': "#10375C",
         'off-black': "#222831",
         'off-orange': "#FF5722",
+        'off-red': "#DD2C00",
+        'off-gray': "#6A6A6A",
+        'off-blue': "#0D2C4A",
+        'light-gray': "#9A9A9A",
       },
       boxShadow: {
         '3xl': "0px 4px 16px 0px #FF572252",
-        '4xl': "0px 0px 0px 2px #10375C, 2px 2px 0px 2px #FFFFFF, 4px 4px 0px 2px #FF5722"
+        '4xl': "0px 0px 0px 2px #10375C, 2px 2px 0px 2px #FFFFFF, 4px 4px 0px 2px #FF5722",
+        '5xl': "0px 0px 0px 2px #FFFFFF, 2px 2px 0px 2px #10375C, 4px 4px 0px 2px #FF5722",
       },
       dropShadow: {
         '3xl': "1px 1px 0px #222831",
-      }
+      },
+      fontSize: {
+        'custom-lg': "34px",
+        'custom-xl': "52px",
+      },
+      lineHeight: {
+        'custom-sm': "26px",
+        'custom-lg': "30px",
+        'custom-base': "51.2px",
+        'custom-xl': "56.56px",
+        'custom-2xl': "66.56px",
+      },
     },
   },
   plugins: [],

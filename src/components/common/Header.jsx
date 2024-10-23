@@ -20,7 +20,7 @@ const Header = () => {
         };
     }, [open]);
     return (
-        <div className="py-10">
+        <div className="lg:py-10 md:py-5 py-1 relative z-50">
             <div className="container">
                 <nav className="flex items-center justify-between">
                     <a href="/" className="w-fit relative z-10 text-deep-blue font-playFair font-bold text-2xl">Frispes.</a>
