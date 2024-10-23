@@ -39,3 +39,26 @@
     color: #9A9A9A !important;
     font-size: 16px !important;
 }
+
+.swiper-slide {
+    margin-top: auto !important;
+    height: 350px !important;
+}
+
+@media (min-width:1024px) {
+    .gallery .swiper-wrapper {
+        height: 606px !important;
+        padding-left: 100px;
+    }
+
+    .gallery .swiper-slide-prev {
+        height: 606px !important;
+        transition: all 300ms linear;
+    }
+}
+
+@media (min-width:1280px) {
+    .gallery .swiper-wrapper {
+        padding-left: 190px;
+    }
+}
