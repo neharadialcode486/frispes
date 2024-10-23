@@ -5,3 +5,37 @@
 .transition_slow {
     transition: all 300ms linear;
 }
+
+.swiper-scrollbar {
+    background-color: #DFDFDF !important;
+    width: calc(15% - 2* var(--swiper-scrollbar-sides-offset, 2%)) !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    border-radius: 0px !important;
+    bottom: 35px !important;
+    top: auto !important;
+}
+
+.swiper-scrollbar-drag {
+    background-color: #DD2C00 !important;
+    border-radius: 0px !important;
+}
+
+.swiper-pagination {
+    bottom: 0px !important;
+    top: auto !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #0D2C4A !important;
+}
+
+.swiper-pagination-current {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.swiper-pagination-total {
+    color: #9A9A9A !important;
+    font-size: 16px !important;
+}

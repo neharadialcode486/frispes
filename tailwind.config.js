@@ -38,6 +38,7 @@ module.exports = {
         '3xl': "1px 1px 0px #222831",
       },
       fontSize: {
+        'custom-sm': "32px",
         'custom-lg': "34px",
         'custom-xl': "52px",
       },
