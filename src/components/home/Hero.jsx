@@ -32,7 +32,7 @@ const Hero = () => {
     };
 
     return (
-        <div className='sm:py-5 py-3 relative mx-w-[1920px] mx-auto'>
+        <div className='sm:py-5 py-3 relative max-w-[1920px] mx-auto'>
             <Header />
             <div className="container mt-4 mb-14 relative z-10">
                 <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
