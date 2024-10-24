@@ -17,8 +17,8 @@ const Gallery = () => {
                     <PrimaryHeading className='text-deep-blue mt-2' text="Immersive beautiful" />
                     <PrimaryHeading className='text-deep-blue' text="co-working space gallery" />
                     <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 lg:w-fit">
-                        <Icon className='cursor-pointer customPrev transition_slow hover:scale-95' iconName='leftArrowIcon' />
-                        <Icon className='cursor-pointer customNext transition_slow hover:scale-95' iconName='rightArrowIcon' />
+                        <Icon className='cursor-pointer prev transition_slow hover:scale-95' iconName='leftArrowIcon' />
+                        <Icon className='cursor-pointer next transition_slow hover:scale-95' iconName='rightArrowIcon' />
                     </div>
                 </div>
             </div>
@@ -29,14 +29,14 @@ const Gallery = () => {
                     loop={true}
                     centeredSlides={true}
                     navigation={{
-                        prevEl: '.customPrev',
-                        nextEl: '.customNext',
+                        prevEl: '.prev',
+                        nextEl: '.next',
                     }}
                     modules={[Navigation]}
                     className="mySwiper"
                     onInit={(swiper) => {
-                        swiper.params.navigation.prevEl = '.customPrev';
-                        swiper.params.navigation.nextEl = '.customNext';
+                        swiper.params.navigation.prevEl = '.prev';
+                        swiper.params.navigation.nextEl = '.next';
                         swiper.navigation.init();
                         swiper.navigation.update();
                     }}

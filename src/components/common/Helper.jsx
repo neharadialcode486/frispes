@@ -79,3 +79,36 @@ export const IMAGES_DATA = [
     { img: shopify, url: "" },
     { img: stripe, url: "" },
 ]
+export const FOOTER_DATA = [
+    {
+        heading: "Spaces", data: [
+            { subHeading: "Co-working spaces", url: "" },
+            { subHeading: "Meeting rooms", url: "" },
+            { subHeading: "Event spaces", url: "" },
+            { subHeading: "Child playground", url: "" },
+            { subHeading: "Cafe & resto", url: "" },
+        ]
+    },
+    {
+        heading: "Company", data: [
+            { subHeading: "About Us", url: "" },
+            { subHeading: "Pricing", url: "" },
+            { subHeading: "Careers", url: "" },
+            { subHeading: "Press", url: "" },
+        ]
+    },
+    {
+        heading: "Support", data: [
+            { subHeading: "FAQs", url: "" },
+            { subHeading: "Privacy Policy", url: "" },
+            { subHeading: "Help", url: "" },
+        ]
+    },
+    {
+        heading: "Contact Us", data: [
+            { subHeading: "E.  Hello@frispes.com", url: "" },
+            { subHeading: "A.  Jalan Jayakatwang  No.301 Ngasem, Kediri", url: "" },
+            { subHeading: "P.  (+62) 82334670000", url: "" },
+        ]
+    },
+]

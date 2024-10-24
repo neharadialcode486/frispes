@@ -20,8 +20,8 @@ const Reviews = () => {
                         <PrimaryHeading className='text-deep-blue mt-2' text="What our customers are saying" />
                     </div>
                     <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 lg:w-fit">
-                        <Icon className='cursor-pointer customPrev transition_slow hover:scale-95' iconName='leftArrowIcon' />
-                        <Icon className='cursor-pointer customNext transition_slow hover:scale-95' iconName='rightArrowIcon' />
+                        <Icon className='cursor-pointer prevButton transition_slow hover:scale-95' iconName='leftArrowIcon' />
+                        <Icon className='cursor-pointer nextButton transition_slow hover:scale-95' iconName='rightArrowIcon' />
                     </div>
                 </div>
             </div>
@@ -30,15 +30,15 @@ const Reviews = () => {
                     slidesPerView={1}
                     spaceBetween={30}
                     navigation={{
-                        prevEl: '.customPrev',
-                        nextEl: '.customNext',
+                        prevEl: '.prevButton',
+                        nextEl: '.nextButton',
                     }}
                     modules={[Keyboard, Scrollbar, Navigation]}
                     scrollbar={true}
                     className="mySwiper !pb-20"
                     onInit={(swiper) => {
-                        swiper.params.navigation.prevEl = '.customPrev';
-                        swiper.params.navigation.nextEl = '.customNext';
+                        swiper.params.navigation.prevEl = '.prevButton';
+                        swiper.params.navigation.nextEl = '.nextButton';
                         swiper.navigation.init();
                         swiper.navigation.update();
                     }}
