@@ -1,4 +1,4 @@
-import member from "../../assets/images/png/member-img.png";
+import member from "../../assets/images/webp/member-img.webp";
 import PrimaryButton from '../common/PrimaryButton';
 import PrimaryHeading from "../common/PrimaryHeading";
 import PrimaryParagraph from "../common/PrimaryParagraph";

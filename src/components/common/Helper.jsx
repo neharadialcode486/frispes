@@ -1,15 +1,15 @@
-import team from "../../assets/images/png/team.png";
-import office from "../../assets/images/png/office.png";
-import gallery from "../../assets/images/png/gallery-img.png";
-import work from "../../assets/images/png/work-img.png";
-import home from "../../assets/images/png/home-work.png";
-import officeWork from "../../assets/images/png/office-work.png";
-import google from "../../assets/images/png/google.png";
-import tokopedio from "../../assets/images/png/tokopedio.png";
-import upwork from "../../assets/images/png/upwork.png";
-import microsoft from "../../assets/images/png/microsoft.png";
-import shopify from "../../assets/images/png/shopify.png";
-import stripe from "../../assets/images/png/stripe.png";
+import team from "../../assets/images/webp/team.webp";
+import office from "../../assets/images/webp/office.webp";
+import gallery from "../../assets/images/webp/gallery-img.webp";
+import work from "../../assets/images/webp/work-img.webp";
+import home from "../../assets/images/webp/home-work.webp";
+import officeWork from "../../assets/images/webp/office-work.webp";
+import google from "../../assets/images/webp/google.webp";
+import tokopedio from "../../assets/images/webp/tokopedio.webp";
+import upwork from "../../assets/images/webp/upwork.webp";
+import microsoft from "../../assets/images/webp/microsoft.webp";
+import shopify from "../../assets/images/webp/shopify.webp";
+import stripe from "../../assets/images/webp/stripe.webp";
 export const HEADER_DATA = [
     { heading: "Home", url: "/" },
     { heading: "Workspace", url: "#Workspace" },
@@ -111,4 +111,9 @@ export const FOOTER_DATA = [
             { subHeading: "P.  (+62) 82334670000", url: "" },
         ]
     },
+]
+export const ICON_DATA = [
+    { icon: "instaIcon", url: "" },
+    { icon: "youTubeIcon", url: "" },
+    { icon: "faceBookIcon", url: "" },
 ]

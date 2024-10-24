@@ -11,7 +11,7 @@ const Brands = () => {
                 <div className="md:mt-14 sm:mt-10 mt-7 xl:-mx-8 h-[67px] overflow-x-scroll xl:flex xl:items-center xl:overflow-x-visible">
                     <div className="w-[1175px] flex group justify-between items-center">
                         {IMAGES_DATA.map((items, index) => (
-                            <a href={items.url} className='transition_slow group-hover:grayscale hover:!filter-none'><img key={index} src={items.img} alt={items.img} /></a>
+                            <a key={index} href={items.url} className='transition_slow group-hover:grayscale hover:!filter-none'><img src={items.img} alt={items.img} /></a>
                         ))}
                     </div>
                 </div>

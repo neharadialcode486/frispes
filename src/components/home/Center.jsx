@@ -9,7 +9,7 @@ const Center = () => {
                 <div className="flex flex-row flex-wrap -mx-3.5 justify-center -mt-5 lg:mt-7 md:pt-0.5 pb-8">
                     {[...Array(3)].map((_, index) => (
                         <div key={index} className="lg:w-4/12 sm:w-1/2 w-full px-3.5 mt-12 lg:mt-6">
-                            <div className="bg-white group transition_slow relative hover:bg-off-orange shadow-5xl flex justify-center items-center min-h-[140px] sm:min-h-[171px]">
+                            <div className="bg-white group transition_slow relative hover:bg-off-orange shadow-8xl flex justify-center items-center min-h-[140px] sm:min-h-[171px]">
                                 <p className='font-lora max-w-[270px] transition_slow group-hover:text-white text-xl sm:text-custom-xs sm:leading-8 text-center'>{index === 0 ? "How do I know if a space is available?" : index === 1 ? "How do i book a space?" : "How do reviews work?"}</p>
                                 <Icon className='left-1/2 -translate-x-1/2 bottom-0 transition_slow group-hover:bg-white shadow-6xl group-hover:shadow-7xl translate-y-1/2 absolute justify-center items-center w-16 h-12 bg-off-orange' iconName='whiteArrowIcon' />
                             </div>

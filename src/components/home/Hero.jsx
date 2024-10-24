@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../common/Header';
 import PrimaryParagraph from '../common/PrimaryParagraph';
-import heroImage from "../../assets/images/png/hero-img.png";
+import heroImage from "../../assets/images/webp/hero-img.webp";
 import Icon from '../common/Icons';
 import { LOCATION_DATA } from '../common/Helper';
 import PrimaryButton from '../common/PrimaryButton';

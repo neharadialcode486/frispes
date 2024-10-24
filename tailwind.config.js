@@ -35,12 +35,13 @@ module.exports = {
         '3xl': "0px 4px 16px 0px #FF572252",
         '4xl': "0px 0px 0px 2px #10375C, 2px 2px 0px 2px #FFFFFF, 4px 4px 0px 2px #FF5722",
         '5xl': "0px 0px 0px 2px #FFFFFF, 2px 2px 0px 2px #10375C, 4px 4px 0px 2px #FF5722",
-        '5xl': "0px 5px 17px 0px #DFDFDF80",
         '6xl': "-10px 5px 17px 0px #DFDFDFB2",
         '7xl': "-10px 5px 17px 0px #DD2C003D",
+        '8xl': "0px 5px 17px 0px #DFDFDF80",
       },
       dropShadow: {
         '3xl': "1px 1px 0px #222831",
+        '4xl': "1px 1px 0px #FFFFFF",
       },
       fontSize: {
         'custom-xs': "26px",
