@@ -87,6 +87,22 @@
         height: 606px !important;
         transition: all 300ms linear;
     }
+
+    .facilities .swiper-pagination {
+        bottom: 125px !important;
+        top: auto !important;
+        left: -50% !important;
+        transform: rotate(-90deg) translateY(50%);
+    }
+
+    .facilities .swiper-scrollbar {
+        width: 4px !important;
+        left: 14px !important;
+        transform: translateX(0%) !important;
+        bottom: auto !important;
+        top: 0px !important;
+        height: calc(46.5% - 2* var(--swiper-scrollbar-sides-offset, 1%)) !important;
+    }
 }
 
 @media (min-width:1280px) {

@@ -19,6 +19,7 @@ import franck from "../../assets/images/webp/franck.webp";
 import elizabeth from "../../assets/images/webp/elizabeth.webp";
 import mykola from "../../assets/images/webp/mykola.webp";
 import ceo from "../../assets/images/webp/google-ceo.webp";
+import coffee from "../../assets/images/png/coffee-shop.png";
 export const HEADER_DATA = [
     { heading: "Home", url: "/" },
     { heading: "Workspace", url: "#Workspace" },
@@ -141,4 +142,23 @@ export const CARD_DATA = [
     { img: franck, title: "Does productivity increase when working remotely ? ", text: "Franck Martin", heading: "Does increase when working", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
     { img: elizabeth, title: "Morning routine to boost your mood", text: "Elizabeth swan", heading: "Morning routine to boost your", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
     { img: mykola, title: "5+ tips to find comfortable co-working space", text: "Mykola Ilschenko", heading: "5+ tips to find comfortable", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
+]
+export const TABS_DATA = [
+    { title: "parking", text: "Spacious parking area" },
+    { title: "spaces", text: "Comfortable spaces" },
+    { title: "cafe", text: "Cozy cafe" },
+    { title: "playground", text: "Child playground" },
+    { title: "outdoor", text: "Outdoor spaces" },
+    { title: "parking", text: "Spacious parking area" },
+    { title: "spaces", text: "Comfortable spaces" },
+];
+
+export const FACILITIES_DATA = [
+    { img: coffee },
+    { img: team },
+    { img: gallery },
+    { img: work },
+    { img: coffee },
+    { img: coffee },
+    { img: coffee },
 ]

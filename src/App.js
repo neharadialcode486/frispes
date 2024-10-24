@@ -1,6 +1,7 @@
 import './App.css';
 import Brands from './components/home/Brands';
 import Events from './components/home/Events';
+import Facilities from './components/home/Facilities';
 import Footer from './components/home/Footer';
 import Gallery from './components/home/Gallery';
 import HelpCenter from './components/home/HelpCenter';
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Space />
       <Workspace />
+      <Facilities />
       <Gallery />
       <Brands />
       <Reviews />
