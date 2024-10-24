@@ -1,4 +1,4 @@
-const PrimaryParagraph = ({
+const Paragraph = ({
     data,
     reduceBelow = 768,
     maxFontSize = 20,
@@ -15,4 +15,4 @@ const PrimaryParagraph = ({
     );
 };
 
-export default PrimaryParagraph;
+export default Paragraph;

@@ -1,10 +1,10 @@
 import Icon from '../common/Icons'
-import { GALLERY_DATA } from '../common/Helper';
+import { IMMERSIVE_BEAUTIFUL_DATA_LIST } from '../common/Helper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import PrimaryHeading from '../common/PrimaryHeading';
+import Heading from '../common/Heading';
 
 const Gallery = () => {
     return (
@@ -14,8 +14,8 @@ const Gallery = () => {
                     <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                         Frispes gallery <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                     </p>
-                    <PrimaryHeading className='text-deep-blue mt-2' text="Immersive beautiful" />
-                    <PrimaryHeading className='text-deep-blue' text="co-working space gallery" />
+                    <Heading className='text-deep-blue mt-2'>Immersive beautiful</Heading>
+                    <Heading className='text-deep-blue'>co-working space gallery</Heading>
                     <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 lg:w-fit">
                         <Icon className='cursor-pointer prev transition-slow hover:scale-95' iconName='leftArrowIcon' />
                         <Icon className='cursor-pointer next transition-slow hover:scale-95' iconName='rightArrowIcon' />
@@ -55,10 +55,10 @@ const Gallery = () => {
                         },
                     }}
                 >
-                    {GALLERY_DATA.map((items, index) => (
-                        <SwiperSlide key={index}>
+                    {IMMERSIVE_BEAUTIFUL_DATA_LIST.map((items) => (
+                        <SwiperSlide key={items}>
                             <div className="relative w-full h-full overflow-hidden">
-                                <img src={items.img} alt={items.img} className='w-full h-full object-cover' />
+                                <img src={items} alt={items} className='w-full h-full object-cover' />
                             </div>
                         </SwiperSlide>
                     ))}

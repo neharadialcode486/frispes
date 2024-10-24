@@ -1,11 +1,11 @@
-import PrimaryHeading from '../common/PrimaryHeading'
+import Heading from '../common/Heading'
 import Icon from '../common/Icons'
 
 const HelpCenter = () => {
     return (
         <div className='py-4 -mt-10 sm:-mt-12 lg:-mt-5'>
             <div className="container mb-5">
-                <PrimaryHeading className='text-center text-deep-blue max-w-[578px] w-full mx-auto' text='Find the answers to anything you need in our Help Center' />
+                <Heading className='text-center text-deep-blue max-w-[578px] w-full mx-auto'>Find the answers to anything you need in our Help Center</Heading>
                 <div className="flex flex-row flex-wrap -mx-3.5 justify-center -mt-5 lg:mt-7 md:pt-0.5 pb-8">
                     {[...Array(3)].map((_, index) => (
                         <div key={index} className="lg:w-4/12 sm:w-1/2 w-full px-3.5 mt-12 lg:mt-6">

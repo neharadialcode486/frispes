@@ -1,32 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import PrimaryHeading from '../common/PrimaryHeading';
+import Heading from '../common/Heading';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Keyboard, Scrollbar, Pagination, Mousewheel } from 'swiper/modules';
 import { FACILITIES_DATA, TABS_DATA } from "../common/Helper";
-
-// Helper function to slugify text (convert spaces to dashes and lowercase)
 const slugify = (text) => text.toLowerCase().replace(/\s+/g, '-');
 
 const Facilities = () => {
-    const { tabName } = useParams(); // Get the current tab name from the URL
+    const { tabName } = useParams();
     const [activeTab, setActiveTab] = useState(0);
-
     useEffect(() => {
         if (typeof tabName === 'string') {
             const tabIndex = TABS_DATA.findIndex(tab => slugify(tab.text) === tabName);
             setActiveTab(tabIndex !== -1 ? tabIndex : 0);
         } else {
-            setActiveTab(0); // Fallback to default if tabName is undefined
+            setActiveTab(0);
         }
     }, [tabName]);
-
     const handleClick = (idx, text) => {
         setActiveTab(idx);
-        window.history.pushState(null, '', `/${slugify(text)}`); // Update URL with slugified text
+        window.history.pushState(null, '', `/${slugify(text)}`);
     };
 
     return (
@@ -35,7 +31,7 @@ const Facilities = () => {
                 <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                     Our Facilities <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                 </p>
-                <PrimaryHeading className='max-w-[570px] text-center lg:text-left mx-auto lg:mx-0 w-full text-deep-blue mt-2' text='All facilities are designed to meet all your needs' />
+                <Heading className='max-w-[570px] text-center lg:text-left mx-auto lg:mx-0 w-full text-deep-blue mt-2'>All facilities are designed to meet all your needs</Heading>
                 <div className="flex justify-between gap-5 lg:flex-row flex-col mt-12 pt-1">
                     <div className="lg:max-w-[343px] block w-full facilities">
                         <Swiper
@@ -75,8 +71,8 @@ const Facilities = () => {
                     <div className="max-w-[729px] w-full">
                         {FACILITIES_DATA[activeTab] && (
                             <img
-                                src={FACILITIES_DATA[activeTab].img}
-                                alt={FACILITIES_DATA[activeTab].img}
+                                src={FACILITIES_DATA[activeTab].image}
+                                alt={FACILITIES_DATA[activeTab].image}
                                 className='max-w-[729px] w-full h-full max-h-[453px] object-cover'
                             />
                         )}

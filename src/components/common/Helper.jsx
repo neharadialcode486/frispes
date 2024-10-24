@@ -1,7 +1,7 @@
 import team from "../../assets/images/webp/team.webp";
 import office from "../../assets/images/webp/office.webp";
-import gallery from "../../assets/images/webp/gallery-img.webp";
-import work from "../../assets/images/webp/work-img.webp";
+import gallery from "../../assets/images/webp/gallery.webp";
+import work from "../../assets/images/webp/work.webp";
 import home from "../../assets/images/webp/home-work.webp";
 import officeWork from "../../assets/images/webp/office-work.webp";
 import google from "../../assets/images/webp/google.webp";
@@ -19,128 +19,119 @@ import franck from "../../assets/images/webp/franck.webp";
 import elizabeth from "../../assets/images/webp/elizabeth.webp";
 import mykola from "../../assets/images/webp/mykola.webp";
 import ceo from "../../assets/images/webp/google-ceo.webp";
-import coffee from "../../assets/images/png/coffee-shop.png";
-export const HEADER_DATA = [
-    { heading: "Home", url: "/" },
-    { heading: "Workspace", url: "#Workspace" },
-    { heading: "Service", url: "#Service" },
-    { heading: "Events", url: "#Events" },
-    { heading: "Reviews", url: "#Reviews" },
-    { heading: "Contact Us", url: "#Contact Us" },
+import coffee from "../../assets/images/webp/coffee-shop.webp";
+export const NAVBAR_DATA_LIST = [
+    { title: "Home", URL: "/" },
+    { title: "Workspace", URL: "#workspace" },
+    { title: "Service", URL: "#service" },
+    { title: "Events", URL: "#events" },
+    { title: "Reviews", URL: "#reviews" },
+    { title: "Contact Us", URL: "#contact" },
 ]
-export const LOCATION_DATA = [
+export const FIND_YOUR_SPACE_LIST = [
     {
-        data: "Location", location: [
+        title: "Location", location: [
             { text: "Malang, Indonesia" },
             { text: "USA" },
             { text: "India" },
         ]
     },
     {
-        data: "Type", location: [
+        title: "Type", location: [
             { text: "Private Office" },
             { text: "Public Office" },
         ]
     },
     {
-        data: "Date", text: "9 Aug 2020",
+        title: "Date", text: "9 Aug 2020",
     }
 ]
-export const SWIPER_DATA = [
-    { img: team, text: "Working with team" },
-    { img: office, text: "Private Space" },
-    { img: office, text: "Custom Office" },
-    { img: team, text: "Working with team" },
-    { img: office, text: "Private Space" },
-    { img: team, text: "Working with team" },
+export const OUR_SPACE_DATA_LIST = [
+    { image: team, title: "Working with team" },
+    { image: office, title: "Private Space" },
+    { image: office, title: "Custom Office" },
+    { image: team, title: "Working with team" },
+    { image: office, title: "Private Space" },
+    { image: team, title: "Working with team" },
 ]
-export const WORKSPACE_DATA = [
+export const WHY_FRISPES_DATA_LIST = [
     {
-        data: [
-            { icon: "meetingIcon", title: "500+", text: "Meeting rooms" },
-            { icon: "flagIcon", title: "60+", text: "Countries" },
-            { icon: "userIcon", title: "5k+", text: "Startup mentors" },
+        list: [
+            { icon: "meetingIcon", title: "500+", description: "Meeting rooms" },
+            { icon: "flagIcon", title: "60+", description: "Countries" },
+            { icon: "userIcon", title: "5k+", description: "Startup mentors" },
 
         ]
     },
     {
-        data: [
-            { icon: "eventIcon", title: "100+", text: "Event spaces" },
-            { icon: "wifiIcon", title: "500 Mbps", text: "Internet speed" },
-            { icon: "usersIcon", title: "200+", text: "Communities inside" },
+        list: [
+            { icon: "eventIcon", title: "100+", description: "Event spaces" },
+            { icon: "wifiIcon", title: "500 Mbps", description: "Internet speed" },
+            { icon: "usersIcon", title: "200+", description: "Communities inside" },
         ]
     },
 ]
-export const GALLERY_DATA = [
-    { img: gallery },
-    { img: work },
-    { img: home },
-    { img: officeWork },
-    { img: gallery },
-    { img: work },
-    { img: home },
-    { img: officeWork },
-]
+export const IMMERSIVE_BEAUTIFUL_DATA_LIST = [gallery, work, home, officeWork, gallery, work, home, officeWork,]
 export const BRANDS_DATA = [
-    { img: google, url: "https://www.google.com/" },
-    { img: tokopedia, url: "https://www.tokopedia.com/" },
-    { img: upwork, url: "https://www.upwork.com/" },
-    { img: microsoft, url: "https://www.microsoft.com/en-in/" },
-    { img: shopify, url: "https://www.shopify.com/" },
-    { img: stripe, url: "https://stripe.com/in" },
+    { image: google, URL: "https://www.google.com/" },
+    { image: tokopedia, URL: "https://www.tokopedia.com/" },
+    { image: upwork, URL: "https://www.upwork.com/" },
+    { image: microsoft, URL: "https://www.microsoft.com/en-in/" },
+    { image: shopify, URL: "https://www.shopify.com/" },
+    { image: stripe, URL: "https://stripe.com/in" },
 ]
 export const FOOTER_DATA = [
     {
         heading: "Spaces", data: [
-            { subHeading: "Co-working spaces", url: "" },
-            { subHeading: "Meeting rooms", url: "" },
-            { subHeading: "Event spaces", url: "" },
-            { subHeading: "Child playground", url: "" },
-            { subHeading: "Cafe & resto", url: "" },
+            { subHeading: "Co-working spaces", URL: "" },
+            { subHeading: "Meeting rooms", URL: "" },
+            { subHeading: "Event spaces", URL: "" },
+            { subHeading: "Child playground", URL: "" },
+            { subHeading: "Cafe & resto", URL: "" },
         ]
     },
     {
         heading: "Company", data: [
-            { subHeading: "About Us", url: "" },
-            { subHeading: "Pricing", url: "" },
-            { subHeading: "Careers", url: "" },
-            { subHeading: "Press", url: "" },
+            { subHeading: "About Us", URL: "" },
+            { subHeading: "Pricing", URL: "" },
+            { subHeading: "Careers", URL: "" },
+            { subHeading: "Press", URL: "" },
         ]
     },
     {
         heading: "Support", data: [
-            { subHeading: "FAQs", url: "" },
-            { subHeading: "Privacy Policy", url: "" },
-            { subHeading: "Help", url: "" },
+            { subHeading: "FAQs", URL: "" },
+            { subHeading: "Privacy Policy", URL: "" },
+            { subHeading: "Help", URL: "" },
         ]
     },
 ]
 export const FOOTERCONTACT_DATA = [
-    { text: "E.", subHeading: "Hello@frispes.com", url: "mailto:Hello@frispes.com" },
-    { text: "A.", subHeading: "Jalan Jayakatwang  No.301 Ngasem, Kediri", url: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
-    { text: "P.", subHeading: "(+62) 82334670000", url: "callto:82334670000" },
+    { text: "E.", subHeading: "Hello@frispes.com", URL: "mailto:Hello@frispes.com" },
+    { text: "A.", subHeading: "Jalan Jayakatwang  No.301 Ngasem, Kediri", URL: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
+    { text: "P.", subHeading: "(+62) 82334670000", URL: "callto:82334670000" },
 ]
 export const ICON_DATA = [
-    { icon: "instaIcon", url: "https://www.instagram.com/accounts/login/?hl=en" },
-    { icon: "youTubeIcon", url: "https://www.youtube.com/" },
-    { icon: "faceBookIcon", url: "https://www.facebook.com/" },
+    { icon: "instaIcon", URL: "https://www.instagram.com/accounts/login/?hl=en" },
+    { icon: "youTubeIcon", URL: "https://www.youtube.com/" },
+    { icon: "faceBookIcon", URL: "https://www.facebook.com/" },
 ]
 export const REVIEWS_DATA = [
-    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", img: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
-    { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", img: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
-    { text: "Just three words : Frispes is Awesome!", img: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
-    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", img: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
-    { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", img: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
-    { text: "Just three words : Frispes is Awesome!", img: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
-    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", img: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
+    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
+    { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", image: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
+    { text: "Just three words : Frispes is Awesome!", image: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
+    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
+    { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", image: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
+    { text: "Just three words : Frispes is Awesome!", image: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
+    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
 ]
 export const CARD_DATA = [
-    { img: pichai, title: "Google I / O 2020 news update", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: ceo, name: "Sundar pichai", work: "CEO at Google" },
-    { img: pichai, title: "Minimal workspace for inspirations", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
-    { img: minimal, title: "Minimal workspace for inspirations", text: "Anthony Masional", heading: "Minimal for inspirations", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: raymond, name: "Raymond Thual", work: "Professional Freelancer" },
-    { img: franck, title: "Does productivity increase when working remotely ? ", text: "Franck Martin", heading: "Does increase when working", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
-    { img: elizabeth, title: "Morning routine to boost your mood", text: "Elizabeth swan", heading: "Morning routine to boost your", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
-    { img: mykola, title: "5+ tips to find comfortable co-working space", text: "Mykola Ilschenko", heading: "5+ tips to find comfortable", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
+    { image: pichai, title: "Google I / O 2020 news update", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: ceo, name: "Sundar pichai", work: "CEO at Google" },
+    { image: pichai, title: "Minimal workspace for inspirations", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
+    { image: minimal, title: "Minimal workspace for inspirations", text: "Anthony Masional", heading: "Minimal for inspirations", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: raymond, name: "Raymond Thual", work: "Professional Freelancer" },
+    { image: franck, title: "Does productivity increase when working remotely ? ", text: "Franck Martin", heading: "Does increase when working", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
+    { image: elizabeth, title: "Morning routine to boost your mood", text: "Elizabeth swan", heading: "Morning routine to boost your", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
+    { image: mykola, title: "5+ tips to find comfortable co-working space", text: "Mykola Ilschenko", heading: "5+ tips to find comfortable", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
 ]
 export const TABS_DATA = [
     { title: "parking", text: "Spacious parking area" },
@@ -153,11 +144,11 @@ export const TABS_DATA = [
 ];
 
 export const FACILITIES_DATA = [
-    { img: coffee },
-    { img: team },
-    { img: gallery },
-    { img: work },
-    { img: coffee },
-    { img: coffee },
-    { img: coffee },
+    { image: coffee },
+    { image: team },
+    { image: gallery },
+    { image: work },
+    { image: coffee },
+    { image: coffee },
+    { image: coffee },
 ]

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Header from '../common/Header';
-import PrimaryParagraph from '../common/PrimaryParagraph';
-import heroImage from "../../assets/images/webp/hero-img.webp";
+import Paragraph from '../common/Paragraph';
+import heroImage from "../../assets/images/webp/hero.webp";
 import Icon from '../common/Icons';
-import { LOCATION_DATA } from '../common/Helper';
-import PrimaryButton from '../common/PrimaryButton';
+import { FIND_YOUR_SPACE_LIST } from '../common/Helper';
+import Button from '../common/Button';
 
 const Hero = () => {
     const [active, setActive] = useState(null);
@@ -42,11 +42,11 @@ const Hero = () => {
                     <p className='max-w-[667px] w-full font-lora font-bold text-center lg:text-left text-3xl sm:text-4xl md:text-5xl xl:text-custom-xl md:leading-custom-xl xl:leading-custom-2xl text-deep-blue'>
                         <span className='text-off-red'>Revolutionary</span> co-working space to realize your innovation
                     </p>
-                    <PrimaryParagraph className='max-w-[382px] text-center lg:text-left w-full lg:w-7/12 xl:w-full text-off-gray' data='In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets' />
+                    <Paragraph className='max-w-[382px] text-center lg:text-left w-full lg:w-7/12 xl:w-full text-off-gray' data='In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets' />
                 </div>
                 <div className="bg-deep-blue max-w-[445px] md:mt-16 sm:mt-12 mt-10 w-full sm:min-h-[459px] mx-auto lg:mx-0 px-4 sm:px-10 py-5 sm:py-8">
                     <p className='font-lora font-bold text-white text-3xl sm:text-custom-lg sm:mt-2.5 sm:leading-[43.52px]'>Find your space now</p>
-                    {LOCATION_DATA.map((items, index) => (
+                    {FIND_YOUR_SPACE_LIST.map((items, index) => (
                         <div key={index} className={`relative pt-px ${index === 0 ? "mt-7" : "mt-4"}`}>
                             <button onClick={() => {
                                 toggleDropdown(index);
@@ -54,7 +54,7 @@ const Hero = () => {
                                 className="bg-off-blue px-4 py-2 w-full flex items-center justify-between cursor-pointer dropdown"
                             >
                                 <div className="flex items-start flex-col">
-                                    <p className='font-lato font-medium text-base leading-custom-sm text-white opacity-35'>{items.data}</p>
+                                    <p className='font-lato font-medium text-base leading-custom-sm text-white opacity-35'>{items.title}</p>
                                     <p className='font-lato font-medium text-base leading-custom-sm text-white'>
                                         {selectedLocation[index]}
                                     </p>
@@ -86,7 +86,7 @@ const Hero = () => {
                             )}
                         </div>
                     ))}
-                    <PrimaryButton className='uppercase w-full py-3 mt-[22px] hover:!shadow-5xl' text='FIND MY SPACE' />
+                    <Button className='uppercase w-full py-3 mt-[22px] hover:!shadow-5xl' text='FIND MY SPACE' />
                 </div>
             </div>
             <img src={heroImage} alt="heroImage" className='max-w-[960px] w-full absolute bottom-0 right-0' />

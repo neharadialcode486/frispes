@@ -1,4 +1,4 @@
-import PrimaryHeading from '../common/PrimaryHeading'
+import Heading from '../common/Heading'
 import Icon from '../common/Icons'
 import { CARD_DATA } from '../common/Helper';
 
@@ -7,7 +7,7 @@ const Events = () => {
         <div className='py-14 bg-deep-gray overflow-hidden'>
             <div className="container pb-1 lg:mb-11">
                 <div className="flex sm:items-end flex-col items-center sm:flex-row justify-between">
-                    <PrimaryHeading className='text-deep-blue lg:mt-1 text-center sm:text-left' text='News, events and insights for you' />
+                    <Heading className='text-deep-blue lg:mt-1 text-center sm:text-left'>News, events and insights for you</Heading>
                     <button className='flex gap-5 items-center w-fit font-lato font-normal text-base text-off-orange group hover:text-deep-blue'>See more <Icon iconName='orangeArrowIcon' /></button>
                 </div>
                 <div className="flex justify-center flex-row flex-wrap -mx-3 md:-mx-[15px] sm:mt-6 pt-0.5">
@@ -16,7 +16,7 @@ const Events = () => {
                             <div className="card">
                                 <div className="card-content relative transition-transform duration-1000">
                                     <div className="card-front max-w-[350px] min-h-[320px] absolute top-0 bottom-0 right-0 left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-0 w-full h-full bg-white">
-                                        <img src={items.img} alt={items.img} className='w-full h-full object-cover max-h-[204px]' />
+                                        <img src={items.image} alt={items.image} className='w-full h-full object-cover max-h-[204px]' />
                                         <div className="px-4 py-3.5">
                                             <p className={`font-lora font-normal text-off-black text-xl md:text-custom-ss md:leading-7 ${index === 5 ? "pr-2" : ""}`}>{items.title}</p>
                                             <p className='mt-1 mb-0.5 font-lato font-medium text-base leading-custom-sm text-light-gray'>{items.text}</p>

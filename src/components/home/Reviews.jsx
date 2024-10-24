@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import { Keyboard, Scrollbar, Navigation } from 'swiper/modules';
 import { REVIEWS_DATA } from '../common/Helper';
-import PrimaryHeading from '../common/PrimaryHeading';
+import Heading from '../common/Heading';
 
 const Reviews = () => {
     return (
@@ -17,7 +17,7 @@ const Reviews = () => {
                         <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto md:mx-0 gap-4'>
                             Reviews <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                         </p>
-                        <PrimaryHeading className='text-deep-blue mt-2 text-center md:text-left' text="What our customers are saying" />
+                        <Heading className='text-deep-blue mt-2 text-center md:text-left'>What our customers are saying</Heading>
                     </div>
                     <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 lg:w-fit">
                         <Icon className='cursor-pointer prevButton transition-slow hover:scale-95' iconName='leftArrowIcon' />
@@ -63,7 +63,7 @@ const Reviews = () => {
                                 <div className="max-w-[365px] w-full flex flex-col justify-between">
                                     <p className='font-lato font-normal text-base leading-custom-sm text-white xl:pr-2'>{items.text}</p>
                                     <div className="flex gap-4">
-                                        <img src={items.img} alt={items.img} className='w-14 h-14' />
+                                        <img src={items.image} alt={items.image} className='w-14 h-14' />
                                         <div className="flex flex-col">
                                             <p className='font-lato text-white font-bold text-lg'>{items.title}</p>
                                             <p className='font-lato text-white font-normal text-base leading-custom-sm mt-1'>{items.data}</p>

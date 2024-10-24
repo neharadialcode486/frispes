@@ -1,4 +1,4 @@
-const PrimaryButton = ({ text, hoverClass, className = '', ...props }) => {
+const Button = ({ text, hoverClass, className = '', ...props }) => {
     return (
         <button className={`overflow-hidden transition-slow text-white hover:shadow-4xl z-[1] relative group bg-off-orange hover:text-off-orange ${className}`} {...props} >
             <span className='font-lato font-bold relative z-10 group-hover:drop-shadow-3xl'>{text}</span>
@@ -7,4 +7,4 @@ const PrimaryButton = ({ text, hoverClass, className = '', ...props }) => {
     );
 };
 
-export default PrimaryButton;
+export default Button;

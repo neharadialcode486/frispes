@@ -1,4 +1,5 @@
-import './App.css';
+import PreLoader from './components/common/PreLoader';
+import ScrollToTop from './components/common/ScrollToTop';
 import Brands from './components/home/Brands';
 import Events from './components/home/Events';
 import Facilities from './components/home/Facilities';
@@ -10,6 +11,7 @@ import Member from './components/home/Member';
 import Reviews from './components/home/Reviews';
 import Space from './components/home/Space';
 import Workspace from './components/home/Workspace';
+import './App.css';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Events />
       <Member />
       <Footer />
+      <ScrollToTop />
+      <PreLoader />
     </>
   );
 }
