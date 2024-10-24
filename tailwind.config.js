@@ -29,6 +29,7 @@ module.exports = {
         'off-gray': "#6A6A6A",
         'off-blue': "#0D2C4A",
         'light-gray': "#9A9A9A",
+        'medium-gray': "#DFDFDF",
       },
       boxShadow: {
         '3xl': "0px 4px 16px 0px #FF572252",
