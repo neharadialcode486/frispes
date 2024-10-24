@@ -30,7 +30,7 @@ const Workspace = () => {
                         <Heading className='text-white mt-2 text-center lg:text-left'>We revolutionize your workspace</Heading>
                         <Paragraph className='text-white mt-6 text-center lg:text-left' data="With a decade of insights and expertise, we're decided to reimagine co-working space, designed to help a new startup grow up and realize their ideas so they can give a positive impacts on many people" />
                     </div>
-                </div>
+                </div>    
             </div>
         </div>
     )
