@@ -32,7 +32,7 @@ const Hero = () => {
     };
 
     return (
-        <div className='sm:py-5 py-3 relative max-w-[1920px] mx-auto'>
+        <section className='sm:py-5 py-3 relative max-w-[1920px] mx-auto'>
             <Header />
             <div className="container mt-4 mb-14 relative z-10">
                 <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
@@ -62,7 +62,7 @@ const Hero = () => {
                                 <Icon className={`${active === index ? "rotate-180" : ""} relative transition-slow`} iconName='downArrow' />
                             </button>
                             {active === index && index < 2 && (
-                                <div className='bg-off-blue absolute z-20 top-full border border-white flex flex-col items-start mt-2 w-full py-4 left-0'>
+                                <div className='bg-off-blue absolute z-20 top-full border border-white flex flex-col items-start w-full py-4 left-0'>
                                     {items.location.map((location, locIndex) => (
                                         <p
                                             key={locIndex}
@@ -75,7 +75,7 @@ const Hero = () => {
                                 </div>
                             )}
                             {active === index && index === 2 && (
-                                <div className='bg-off-blue absolute z-20 top-full border border-white mt-2 w-full p-4 left-0'>
+                                <div className='bg-off-blue absolute z-20 top-full border border-white w-full p-4 left-0'>
                                     <input
                                         type='date'
                                         value={selectedLocation[2]}
@@ -90,7 +90,7 @@ const Hero = () => {
                 </div>
             </div>
             <img src={heroImage} alt="heroImage" className='max-w-[960px] w-full absolute bottom-0 right-0' />
-        </div>
+        </section>
     );
 };
 

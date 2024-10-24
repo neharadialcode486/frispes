@@ -5,7 +5,7 @@ import Paragraph from "../common/Paragraph";
 
 const ReadyToTry = () => {
     return (
-        <div className='sm:py-16 py-14 bg-deep-blue overflow-hidden -mt-1'>
+        <section className='sm:py-16 py-14 bg-deep-blue overflow-hidden -mt-1'>
             <div className="container relative mt-2.5 mb-3.5 pb-1">
                 <div className="lg:max-w-[445px] w-full relative z-10">
                     <p className='font-lato font-medium text-xl text-white flex items-center w-fit mx-auto lg:mx-0 gap-4'>
@@ -17,7 +17,7 @@ const ReadyToTry = () => {
                 </div>
                 <img src={member} alt="member" className="lg:max-w-[377px] max-w-[300px] w-full absolute right-10 xl:right-20 top-[56%] lg:opacity-100 opacity-50 sm:opacity-70 -translate-y-1/2" />
             </div>
-        </div>
+        </section>
     )
 }
 

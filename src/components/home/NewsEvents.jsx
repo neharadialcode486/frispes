@@ -4,7 +4,7 @@ import { NEWS_EVENTS_DATA_LIST } from '../common/Helper';
 
 const NewsEvents = () => {
     return (
-        <div className='py-14 bg-deep-gray overflow-hidden'>
+        <section className='py-14 bg-deep-gray overflow-hidden'>
             <div className="container pb-1 lg:mb-11">
                 <div className="flex sm:items-end flex-col items-center sm:flex-row justify-between">
                     <Heading className='text-deep-blue lg:mt-1 text-center sm:text-left'>News, events and insights for you</Heading>
@@ -26,7 +26,7 @@ const NewsEvents = () => {
                                         <p className='text-off-black font-bold font-lora text-3xl sm:text-2xl xl:text-custom-3xl xl:leading-10'>{items.subTitle}</p>
                                         <p className='mt-6 text-light-gray text-base leading-custom-xl font-lato font-normal'>{items.description}</p>
                                         <div className="flex gap-6 mt-4">
-                                            <img src={items.icon} alt={items.icon} className='w-14 h-14' />
+                                            <img src={items.icon} alt={items.icon} className='size-14' />
                                             <div className="flex flex-col">
                                                 <p className='text-deep-blue font-lato font-medium text-lg'>{items.name}</p>
                                                 <p className='text-light-gray text-base leading-custom-xl font-lato font-normal'>{items.profession}</p>
@@ -39,7 +39,7 @@ const NewsEvents = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

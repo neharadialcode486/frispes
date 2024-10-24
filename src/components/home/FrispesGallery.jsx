@@ -8,7 +8,7 @@ import Heading from '../common/Heading';
 
 const FrispesGallery = () => {
     return (
-        <div className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto'>
+        <section className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto'>
             <div className="container relative">
                 <div className="lg:right-5 lg:absolute mx-auto lg:mx-0 flex flex-col items-center lg:items-start mb-7 md:mb-10 top-0 z-10 max-w-[496px] w-full">
                     <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
@@ -55,8 +55,8 @@ const FrispesGallery = () => {
                         },
                     }}
                 >
-                    {IMMERSIVE_BEAUTIFUL_DATA_LIST.map((items) => (
-                        <SwiperSlide key={items}>
+                    {IMMERSIVE_BEAUTIFUL_DATA_LIST.map((items, index) => (
+                        <SwiperSlide key={index}>
                             <div className="relative w-full h-full overflow-hidden">
                                 <img src={items} alt={items} className='w-full h-full object-cover' />
                             </div>
@@ -64,7 +64,7 @@ const FrispesGallery = () => {
                     ))}
                 </Swiper>
             </div>
-        </div>
+        </section>
     )
 }
 

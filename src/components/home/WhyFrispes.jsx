@@ -5,7 +5,7 @@ import Paragraph from '../common/Paragraph';
 
 const WhyFrispes = () => {
     return (
-        <div className='py-4'>
+        <section className='py-4'>
             <div className="container">
                 <div className="flex justify-between items-center gap-8 lg:flex-row flex-col">
                     <div className="w-full flex justify-between max-w-[499px]">
@@ -32,7 +32,7 @@ const WhyFrispes = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

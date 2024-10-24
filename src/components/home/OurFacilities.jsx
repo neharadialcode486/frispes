@@ -26,7 +26,7 @@ const OurFacilities = () => {
     };
 
     return (
-        <div className='py-4'>
+        <section className='py-4'>
             <div className="container mt-20">
                 <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                     Our Facilities <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
@@ -79,7 +79,7 @@ const OurFacilities = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

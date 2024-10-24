@@ -10,7 +10,7 @@ import Heading from '../common/Heading';
 
 const CustomersReviews = () => {
     return (
-        <div className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto'>
+        <section className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto'>
             <div className="container">
                 <div className="flex flex-col md:flex-row justify-between items-center lg:items-end w-full">
                     <div className="flex flex-col max-w-[399px] w-full">
@@ -20,8 +20,8 @@ const CustomersReviews = () => {
                         <Heading className='text-deep-blue mt-2 text-center md:text-left'>What our customers are saying</Heading>
                     </div>
                     <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 lg:w-fit">
-                        <Icon className='cursor-pointer prevButton transition-slow hover:scale-95' iconName='leftArrow' />
-                        <Icon className='cursor-pointer nextButton transition-slow hover:scale-95' iconName='rightArrow' />
+                        <Icon className='cursor-pointer prevButton group transition-slow hover:scale-95' iconName='leftArrow' />
+                        <Icon className='cursor-pointer nextButton group transition-slow hover:scale-95' iconName='rightArrow' />
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ const CustomersReviews = () => {
                     ))}
                 </Swiper>
             </div>
-        </div >
+        </section >
     )
 }
 

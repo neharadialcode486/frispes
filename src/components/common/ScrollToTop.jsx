@@ -34,13 +34,13 @@ const ScrollToTop = () => {
     return (
         <button
             onClick={Scroll}
-            className="bg-white border border-dark-green hover:shadow-4xl hover:bg-off-black group group place-items-center xl:w-16 xl:h-16 md:w-14 md:h-14 sm:w-12 sm:h-12 w-10 h-10 rounded-full fixed bottom-[2%] cursor-pointer shadow-6xl duration-300 ease-linear z-30"
+            className="bg-white border border-off-black hover:shadow-3xl hover:bg-off-black group place-items-center xl:size-16 md:size-14 sm:size-12 size-10 rounded-full fixed bottom-[2%] cursor-pointer duration-300 ease-linear z-30"
             style={{
                 display: visible ? 'grid' : 'none',
-                right: isLargeScreen ? 'calc((100vw - 1920px) / 2 + 30px)' : '2%',
+                right: isLargeScreen ? 'calc((100vw - 1920px) / 2 + 30px)' : '1.7%',
             }}
         >
-            <img src={scrollIcon} alt="scrollIcon" className='w-7/12' />
+            <img src={scrollIcon} alt="scrollIcon" className='w-1/2' />
         </button>
     );
 };

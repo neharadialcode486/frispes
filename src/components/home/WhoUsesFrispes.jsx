@@ -4,7 +4,7 @@ import { WHO_USES_FRISPES_DATA_LIST } from '../common/Helper'
 
 const WhoUsesFrispes = () => {
     return (
-        <div className='py-4'>
+        <section className='py-4'>
             <div className="container">
                 <Heading className='text-deep-blue text-center'>Who uses Frispes?</Heading>
                 <p className='md:mt-6 sm:mt-3 mt-2 font-lato text-light-gray font-medium text-lg text-center'>Big brands, small bussiness, new startuo and inividuals</p>
@@ -16,7 +16,7 @@ const WhoUsesFrispes = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
