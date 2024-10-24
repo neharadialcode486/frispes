@@ -50,6 +50,7 @@ const Reviews = () => {
                         },
                         1024: {
                             slidesPerView: 2.8,
+                            spaceBetween: 30,
                         },
                         1536: {
                             slidesPerView: 3.8,
@@ -60,12 +61,12 @@ const Reviews = () => {
                         <SwiperSlide key={index}>
                             <div className="relative min-h-[393px] w-full bg-deep-blue overflow-hidden flex justify-center px-4 pb-9 pt-12">
                                 <div className="max-w-[365px] w-full flex flex-col justify-between">
-                                    <p className='font-lato font-normal text-base leading-custom-sm text-white'>{items.text}</p>
+                                    <p className='font-lato font-normal text-base leading-custom-sm text-white xl:pr-2'>{items.text}</p>
                                     <div className="flex gap-4">
                                         <img src={items.img} alt={items.img} className='w-14 h-14' />
                                         <div className="flex flex-col">
                                             <p className='font-lato text-white font-bold text-lg'>{items.title}</p>
-                                            <p className='font-lato text-white font-normal text-base leading-custom-sm'>{items.data}</p>
+                                            <p className='font-lato text-white font-normal text-base leading-custom-sm mt-1'>{items.data}</p>
                                         </div>
                                     </div>
                                 </div>

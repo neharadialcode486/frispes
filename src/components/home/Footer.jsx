@@ -1,5 +1,5 @@
 import React from 'react'
-import { FOOTER_DATA, ICON_DATA } from '../common/Helper'
+import { FOOTER_DATA, FOOTERCONTACT_DATA, ICON_DATA } from '../common/Helper'
 import Icon from '../common/Icons'
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
                     <div className="max-w-[730px] w-full sm:flex-nowrap flex-wrap flex-row justify-between mt-7 pt-0.5 flex">
                         {FOOTER_DATA.map((items, index) => (
-                            <div key={index} className={`${index === 3 ? "sm:max-w-[212px] sm:w-full" : "sm:w-fit"} mt-6 w-1/2`}>
+                            <div key={index} className="sm:w-fit mt-6 lg:mt-0 w-1/2">
                                 <h2 className='font-lato text-xl font-medium text-white opacity-50'>{items.heading}</h2>
                                 <div className="flex flex-col gap-[9px] mt-3 sm:mt-6">
                                     {items.data.map((obj, idx) => (
@@ -29,10 +29,18 @@ const Footer = () => {
                                 </div>
                             </div>
                         ))}
+                        <div className="sm:max-w-[212px] sm:w-full mt-6 lg:mt-0 w-1/2">
+                            <h2 className='font-lato text-xl font-medium text-white opacity-50'>Contact Us</h2>
+                            <div className="flex flex-col gap-[9px] mt-3 sm:mt-6">
+                                {FOOTERCONTACT_DATA.map((obj, idx) => (
+                                    <a key={idx} target={idx === 1 ? "_blank" : undefined} rel={idx === 1 ? "noreferrer" : undefined} href={obj.url} className='w-fit font-lato font-normal text-white text-base transition-slow hover:text-off-orange leading-custom-sm flex gap-2'><span className='font-bold'>{obj.text}</span> {obj.subHeading}</a>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -19,7 +19,7 @@
 
 .swiper-scrollbar {
     background-color: #DFDFDF !important;
-    width: calc(15% - 2* var(--swiper-scrollbar-sides-offset, 2%)) !important;
+    width: calc(18.5% - 2* var(--swiper-scrollbar-sides-offset, 2%)) !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
     border-radius: 0px !important;

@@ -114,13 +114,11 @@ export const FOOTER_DATA = [
             { subHeading: "Help", url: "" },
         ]
     },
-    {
-        heading: "Contact Us", data: [
-            { subHeading: "E. Hello@frispes.com", url: "mailto:Hello@frispes.com" },
-            { subHeading: "A. Jalan Jayakatwang  No.301 Ngasem, Kediri", url: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
-            { subHeading: "P. (+62) 82334670000", url: "callto:82334670000" },
-        ]
-    },
+]
+export const FOOTERCONTACT_DATA = [
+    { text: "E.", subHeading: "Hello@frispes.com", url: "mailto:Hello@frispes.com" },
+    { text: "A.", subHeading: "Jalan Jayakatwang  No.301 Ngasem, Kediri", url: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
+    { text: "P.", subHeading: "(+62) 82334670000", url: "callto:82334670000" },
 ]
 export const ICON_DATA = [
     { icon: "instaIcon", url: "https://www.instagram.com/accounts/login/?hl=en" },
@@ -134,6 +132,7 @@ export const REVIEWS_DATA = [
     { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", img: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
     { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", img: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
     { text: "Just three words : Frispes is Awesome!", img: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
+    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", img: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
 ]
 export const CARD_DATA = [
     { img: pichai, title: "Google I / O 2020 news update", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: ceo, name: "Sundar pichai", work: "CEO at Google" },

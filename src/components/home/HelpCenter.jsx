@@ -3,7 +3,7 @@ import Icon from '../common/Icons'
 
 const HelpCenter = () => {
     return (
-        <div className='py-4 -mt-10 sm:-mt-12 lg:mt-0'>
+        <div className='py-4 -mt-10 sm:-mt-12 lg:-mt-5'>
             <div className="container mb-5">
                 <PrimaryHeading className='text-center text-deep-blue max-w-[578px] w-full mx-auto' text='Find the answers to anything you need in our Help Center' />
                 <div className="flex flex-row flex-wrap -mx-3.5 justify-center -mt-5 lg:mt-7 md:pt-0.5 pb-8">
