@@ -4,7 +4,7 @@ import Icon from '../common/Icons'
 
 const Footer = () => {
     return (
-        <div className='bg-off-blue py-14 -mt-1'>
+        <div className='bg-off-blue sm:py-14 py-8 relative z-10 -mt-1'>
             <div className="container lg:mb-11 pb-0.5">
                 <div className="flex justify-between lg:flex-row flex-col lg:gap-16 xl:gap-5">
                     <div className="lg:max-w-[255px] w-full">

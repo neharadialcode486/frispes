@@ -14,11 +14,11 @@ import pedro from "../../assets/images/png/pedro.png";
 import raymond from "../../assets/images/png/raymond.png";
 import berlian from "../../assets/images/png/berlian.png";
 import pichai from "../../assets/images/png/sunder-pichai.png";
-// import pichai from "../../assets/images/png/sunder-pichai.png";
-// import pichai from "../../assets/images/png/sunder-pichai.png";
-// import pichai from "../../assets/images/png/sunder-pichai.png";
-// import pichai from "../../assets/images/png/sunder-pichai.png";
-// import pichai from "../../assets/images/png/sunder-pichai.png";
+import minimal from "../../assets/images/png/minimal.png";
+import franck from "../../assets/images/png/franck.png";
+import elizabeth from "../../assets/images/png/elizabeth.png";
+import mykola from "../../assets/images/png/mykola.png";
+import ceo from "../../assets/images/png/google-ceo.png";
 export const HEADER_DATA = [
     { heading: "Home", url: "/" },
     { heading: "Workspace", url: "#Workspace" },
@@ -135,10 +135,10 @@ export const REVIEWS_DATA = [
     { text: "Just three words : Frispes is Awesome!", img: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
 ]
 export const CARD_DATA = [
-    { img: pichai, title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
-    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
-    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
-    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
-    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
-    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "s" },
+    { img: pichai, title: "Google I / O 2020 news update", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: ceo, name: "Sundar pichai", work: "CEO at Google" },
+    { img: pichai, title: "Minimal workspace for inspirations", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
+    { img: minimal, title: "Minimal workspace for inspirations", text: "Anthony Masional", heading: "Minimal for inspirations", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: raymond, name: "Raymond Thual", work: "Professional Freelancer" },
+    { img: franck, title: "Does productivity increase when working remotely ? ", text: "Franck Martin", heading: "Does increase when working", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
+    { img: elizabeth, title: "Morning routine to boost your mood", text: "Elizabeth swan", heading: "Morning routine to boost your", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
+    { img: mykola, title: "5+ tips to find comfortable co-working space", text: "Mykola Ilschenko", heading: "5+ tips to find comfortable", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
 ]
