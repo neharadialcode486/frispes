@@ -59,15 +59,15 @@ const Hero = () => {
                                         {selectedLocation[index]}
                                     </p>
                                 </div>
-                                <Icon iconName='downArrowIcon' />
+                                <Icon className={`${active === index ? "rotate-180" : ""} relative transition-slow`} iconName='downArrowIcon' />
                             </button>
                             {active === index && index < 2 && (
-                                <div className='bg-off-blue absolute z-20 top-full shadow-4xl flex flex-col items-start mt-2 w-full py-4 left-0'>
+                                <div className='bg-off-blue absolute z-20 top-full border border-white flex flex-col items-start mt-2 w-full py-4 left-0'>
                                     {items.location.map((location, locIndex) => (
                                         <p
                                             key={locIndex}
                                             onClick={() => handleLocationChange(index, location.text)}
-                                            className='text-white transition_slow font-lato font-medium text-base leading-custom-sm hover:text-off-red cursor-pointer w-full px-4 hover:bg-white py-2'
+                                            className='text-white transition-slow font-lato font-medium text-base leading-custom-sm hover:text-off-red cursor-pointer w-full px-4 hover:bg-white py-2'
                                         >
                                             {location.text}
                                         </p>
@@ -75,7 +75,7 @@ const Hero = () => {
                                 </div>
                             )}
                             {active === index && index === 2 && (
-                                <div className='bg-off-blue absolute z-20 top-full shadow-4xl mt-2 w-full p-4 left-0'>
+                                <div className='bg-off-blue absolute z-20 top-full border border-white mt-2 w-full p-4 left-0'>
                                     <input
                                         type='date'
                                         value={selectedLocation[2]}

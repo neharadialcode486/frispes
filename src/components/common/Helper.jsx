@@ -10,6 +10,15 @@ import upwork from "../../assets/images/webp/upwork.webp";
 import microsoft from "../../assets/images/webp/microsoft.webp";
 import shopify from "../../assets/images/webp/shopify.webp";
 import stripe from "../../assets/images/webp/stripe.webp";
+import pedro from "../../assets/images/png/pedro.png";
+import raymond from "../../assets/images/png/raymond.png";
+import berlian from "../../assets/images/png/berlian.png";
+import pichai from "../../assets/images/png/sunder-pichai.png";
+// import pichai from "../../assets/images/png/sunder-pichai.png";
+// import pichai from "../../assets/images/png/sunder-pichai.png";
+// import pichai from "../../assets/images/png/sunder-pichai.png";
+// import pichai from "../../assets/images/png/sunder-pichai.png";
+// import pichai from "../../assets/images/png/sunder-pichai.png";
 export const HEADER_DATA = [
     { heading: "Home", url: "/" },
     { heading: "Workspace", url: "#Workspace" },
@@ -116,4 +125,20 @@ export const ICON_DATA = [
     { icon: "instaIcon", url: "" },
     { icon: "youTubeIcon", url: "" },
     { icon: "faceBookIcon", url: "" },
+]
+export const REVIEWS_DATA = [
+    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", img: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
+    { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", img: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
+    { text: "Just three words : Frispes is Awesome!", img: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
+    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", img: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
+    { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", img: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
+    { text: "Just three words : Frispes is Awesome!", img: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
+]
+export const CARD_DATA = [
+    { img: pichai, title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
+    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
+    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
+    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
+    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "" },
+    { img: "", title: "", text: "", heading: "", data: "", icon: "", name: "", work: "s" },
 ]

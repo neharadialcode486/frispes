@@ -12,7 +12,7 @@ const Footer = () => {
                         <p className='font-lato text-base mt-4 opacity-85 text-deep-gray leading-custom-sm'>We offer comfortable spaces, cozy cafe, high-speed internet, spacious parking area and many more for your best workspaces and meetings</p>
                         <div className="flex items-center gap-4 mt-6">
                             {ICON_DATA.map((data, idx) => (
-                                <a key={idx} href={data.url} className='group transition_slow'>
+                                <a key={idx} href={data.url} className='group transition-slow'>
                                     <Icon iconName={data.icon} />
                                 </a>
                             ))}
@@ -24,7 +24,7 @@ const Footer = () => {
                                 <h2 className='font-lato text-xl font-medium text-white opacity-50'>{items.heading}</h2>
                                 <div className="flex flex-col gap-[9px] mt-3 sm:mt-6">
                                     {items.data.map((obj, idx) => (
-                                        <a key={idx} href={obj.url} className='w-fit font-lato font-normal text-white text-base transition_slow hover:text-off-orange leading-custom-sm'>{obj.subHeading}</a>
+                                        <a key={idx} href={obj.url} className='w-fit font-lato font-normal text-white text-base transition-slow hover:text-off-orange leading-custom-sm'>{obj.subHeading}</a>
                                     ))}
                                 </div>
                             </div>

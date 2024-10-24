@@ -44,6 +44,7 @@ module.exports = {
         '4xl': "1px 1px 0px #FFFFFF",
       },
       fontSize: {
+        'custom-ss': "22px",
         'custom-xs': "26px",
         'custom-sm': "32px",
         'custom-lg': "34px",
