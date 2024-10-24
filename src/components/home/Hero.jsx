@@ -39,13 +39,13 @@ const Hero = () => {
                     Introducing <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                 </p>
                 <div className="flex justify-between lg:flex-row items-center lg:items-start flex-col gap-3 sm:gap-4 mt-1 sm:mt-2">
-                    <p className='max-w-[667px] w-full font-lora font-bold text-center lg:text-left text-3xl sm:text-4xl md:text-5xl xl:text-custom-xl md:leading-custom-xl xl:leading-custom-2xl text-deep-blue'>
+                    <p className='max-w-[667px] w-full font-lora font-bold text-center lg:text-left text-3xl sm:text-4xl md:text-5xl xl:text-custom-5xl md:leading-custom-4xl xl:leading-custom-5xl text-deep-blue'>
                         <span className='text-off-red'>Revolutionary</span> co-working space to realize your innovation
                     </p>
                     <Paragraph className='max-w-[382px] text-center lg:text-left w-full lg:w-7/12 xl:w-full text-off-gray'>In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</Paragraph>
                 </div>
                 <div className="bg-deep-blue max-w-[445px] md:mt-16 sm:mt-12 mt-10 w-full sm:min-h-[459px] mx-auto lg:mx-0 px-4 sm:px-10 py-5 sm:py-8">
-                    <p className='font-lora font-bold text-white text-3xl sm:text-custom-lg sm:mt-2.5 sm:leading-[43.52px]'>Find your space now</p>
+                    <p className='font-lora font-bold text-white text-3xl sm:text-custom-4xl sm:mt-2.5 sm:leading-[43.52px]'>Find your space now</p>
                     {FIND_YOUR_SPACE_LIST.map((items, index) => (
                         <div key={index} className={`relative pt-px ${index === 0 ? "mt-7" : "mt-4"}`}>
                             <button onClick={() => {
@@ -54,8 +54,8 @@ const Hero = () => {
                                 className="bg-off-blue px-4 py-2 w-full flex items-center justify-between cursor-pointer dropdown"
                             >
                                 <div className="flex items-start flex-col">
-                                    <p className='font-lato font-medium text-base leading-custom-sm text-white opacity-35'>{items.title}</p>
-                                    <p className='font-lato font-medium text-base leading-custom-sm text-white'>
+                                    <p className='font-lato font-medium text-base leading-custom-xl text-white opacity-35'>{items.title}</p>
+                                    <p className='font-lato font-medium text-base leading-custom-xl text-white'>
                                         {selectedLocation[index]}
                                     </p>
                                 </div>
@@ -67,7 +67,7 @@ const Hero = () => {
                                         <p
                                             key={locIndex}
                                             onClick={() => handleLocationChange(index, location.text)}
-                                            className='text-white transition-slow font-lato font-medium text-base leading-custom-sm hover:text-off-red cursor-pointer w-full px-4 hover:bg-white py-2'
+                                            className='text-white transition-slow font-lato font-medium text-base leading-custom-xl hover:text-off-red cursor-pointer w-full px-4 hover:bg-white py-2'
                                         >
                                             {location.text}
                                         </p>

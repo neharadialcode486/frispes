@@ -15,7 +15,7 @@ const WhyFrispes = () => {
                                     <div key={idx} className="flex gap-3 sm:gap-6">
                                         <Icon iconName={obj.icon} />
                                         <div className="flex flex-col">
-                                            <p className='text-deep-blue font-lora font-normal text-2xl sm:text-custom-sm sm:leading-10'>{obj.title}</p>
+                                            <p className='text-deep-blue font-lora font-normal text-2xl sm:text-custom-3xl sm:leading-10'>{obj.title}</p>
                                             <p className='mt-2 text-light-gray font-lato font-normal text-sm sm:text-base'>{obj.description}</p>
                                         </div>
                                     </div>

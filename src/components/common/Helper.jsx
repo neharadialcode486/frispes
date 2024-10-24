@@ -57,17 +57,17 @@ export const OUR_SPACE_DATA_LIST = [
 export const WHY_FRISPES_DATA_LIST = [
     {
         list: [
-            { icon: "meetingIcon", title: "500+", description: "Meeting rooms" },
-            { icon: "flagIcon", title: "60+", description: "Countries" },
-            { icon: "userIcon", title: "5k+", description: "Startup mentors" },
+            { icon: "meeting", title: "500+", description: "Meeting rooms" },
+            { icon: "flag", title: "60+", description: "Countries" },
+            { icon: "user", title: "5k+", description: "Startup mentors" },
 
         ]
     },
     {
         list: [
-            { icon: "eventIcon", title: "100+", description: "Event spaces" },
-            { icon: "wifiIcon", title: "500 Mbps", description: "Internet speed" },
-            { icon: "usersIcon", title: "200+", description: "Communities inside" },
+            { icon: "event", title: "100+", description: "Event spaces" },
+            { icon: "wifi", title: "500 Mbps", description: "Internet speed" },
+            { icon: "users", title: "200+", description: "Communities inside" },
         ]
     },
 ]
@@ -112,9 +112,9 @@ export const FOOTER_CONTACT_DATA_LIST = [
     { text: "P.", subTitle: "(+62) 82334670000", URL: "callto:82334670000" },
 ]
 export const SOCIAL_MEDIA_DATA_LIST = [
-    { icon: "instaIcon", URL: "https://www.instagram.com/accounts/login/?hl=en" },
-    { icon: "youTubeIcon", URL: "https://www.youtube.com/" },
-    { icon: "faceBookIcon", URL: "https://www.facebook.com/" },
+    { icon: "insta", URL: "https://www.instagram.com/accounts/login/?hl=en" },
+    { icon: "youTube", URL: "https://www.youtube.com/" },
+    { icon: "faceBook", URL: "https://www.facebook.com/" },
 ]
 export const OUR_CUSTOMERS_DATA_LIST = [
     { description: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, name: "Pedro Ibanez", profession: "UI Designer at Google" },
