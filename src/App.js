@@ -1,9 +1,9 @@
 import './App.css';
 import Brands from './components/home/Brands';
-import Center from './components/home/Center';
 import Events from './components/home/Events';
 import Footer from './components/home/Footer';
 import Gallery from './components/home/Gallery';
+import HelpCenter from './components/home/HelpCenter';
 import Hero from './components/home/Hero';
 import Member from './components/home/Member';
 import Reviews from './components/home/Reviews';
@@ -19,7 +19,7 @@ function App() {
       <Gallery />
       <Brands />
       <Reviews />
-      <Center />
+      <HelpCenter />
       <Events />
       <Member />
       <Footer />

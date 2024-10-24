@@ -1,7 +1,7 @@
 import PrimaryHeading from '../common/PrimaryHeading'
 import Icon from '../common/Icons'
 
-const Center = () => {
+const HelpCenter = () => {
     return (
         <div className='py-4 -mt-10 sm:-mt-12 lg:mt-0'>
             <div className="container mb-5">
@@ -22,4 +22,4 @@ const Center = () => {
     )
 }
 
-export default Center
+export default HelpCenter

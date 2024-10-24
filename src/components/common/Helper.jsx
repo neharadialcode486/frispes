@@ -80,7 +80,7 @@ export const GALLERY_DATA = [
     { img: home },
     { img: officeWork },
 ]
-export const IMAGES_DATA = [
+export const BRANDS_DATA = [
     { img: google, url: "https://www.google.com/" },
     { img: tokopedia, url: "https://www.tokopedia.com/" },
     { img: upwork, url: "https://www.upwork.com/" },
@@ -115,9 +115,9 @@ export const FOOTER_DATA = [
     },
     {
         heading: "Contact Us", data: [
-            { subHeading: "E.  Hello@frispes.com", url: "" },
-            { subHeading: "A.  Jalan Jayakatwang  No.301 Ngasem, Kediri", url: "" },
-            { subHeading: "P.  (+62) 82334670000", url: "" },
+            { subHeading: "E. Hello@frispes.com", url: "mailto:Hello@frispes.com" },
+            { subHeading: "A. Jalan Jayakatwang  No.301 Ngasem, Kediri", url: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
+            { subHeading: "P. (+62) 82334670000", url: "callto:82334670000" },
         ]
     },
 ]

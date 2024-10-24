@@ -24,7 +24,7 @@ const Footer = () => {
                                 <h2 className='font-lato text-xl font-medium text-white opacity-50'>{items.heading}</h2>
                                 <div className="flex flex-col gap-[9px] mt-3 sm:mt-6">
                                     {items.data.map((obj, idx) => (
-                                        <a key={idx} href={obj.url} className='w-fit font-lato font-normal text-white text-base transition-slow hover:text-off-orange leading-custom-sm'>{obj.subHeading}</a>
+                                        <a key={idx} target={idx === items.data.length - 2 ? "_blank" : undefined} rel={idx === items.data.length - 2 ? "noreferrer" : undefined} href={obj.url} className='w-fit font-lato font-normal text-white text-base transition-slow hover:text-off-orange leading-custom-sm'>{obj.subHeading}</a>
                                     ))}
                                 </div>
                             </div>
