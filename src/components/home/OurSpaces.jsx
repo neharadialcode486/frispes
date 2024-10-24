@@ -8,7 +8,7 @@ import 'swiper/css/scrollbar';
 import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
 import { OUR_SPACE_DATA_LIST } from '../common/Helper';
 
-const Space = () => {
+const OurSpaces = () => {
     return (
         <div className='lg:py-24 md:py-20 sm:py-16 py-14'>
             <div className="container mt-4 pt-0.5">
@@ -72,4 +72,4 @@ const Space = () => {
     )
 }
 
-export default Space
+export default OurSpaces

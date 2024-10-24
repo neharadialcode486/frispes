@@ -3,7 +3,7 @@ import { WHY_FRISPES_DATA_LIST } from '../common/Helper'
 import Heading from './../common/Heading';
 import Paragraph from '../common/Paragraph';
 
-const Workspace = () => {
+const WhyFrispes = () => {
     return (
         <div className='py-4'>
             <div className="container">
@@ -36,4 +36,4 @@ const Workspace = () => {
     )
 }
 
-export default Workspace
+export default WhyFrispes

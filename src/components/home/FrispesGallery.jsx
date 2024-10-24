@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import Heading from '../common/Heading';
 
-const Gallery = () => {
+const FrispesGallery = () => {
     return (
         <div className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto'>
             <div className="container relative">
@@ -68,4 +68,4 @@ const Gallery = () => {
     )
 }
 
-export default Gallery
+export default FrispesGallery

@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../common/Heading'
 import { WHO_USES_FRISPES_DATA_LIST } from '../common/Helper'
 
-const Brands = () => {
+const WhoUsesFrispes = () => {
     return (
         <div className='py-4'>
             <div className="container">
@@ -20,4 +20,4 @@ const Brands = () => {
     )
 }
 
-export default Brands
+export default WhoUsesFrispes

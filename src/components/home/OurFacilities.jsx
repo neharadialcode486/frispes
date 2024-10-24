@@ -9,7 +9,7 @@ import { Keyboard, Scrollbar, Pagination, Mousewheel } from 'swiper/modules';
 import { OUR_FACILITIES_THUMNAIL_DATA_LIST, OUR_FACILITIES_DATA_LIST } from "../common/Helper";
 const slugify = (text) => text.toLowerCase().replace(/\s+/g, '-');
 
-const Facilities = () => {
+const OurFacilities = () => {
     const { tabName } = useParams();
     const [activeTab, setActiveTab] = useState(0);
     useEffect(() => {
@@ -83,4 +83,4 @@ const Facilities = () => {
     );
 };
 
-export default Facilities;
+export default OurFacilities;
