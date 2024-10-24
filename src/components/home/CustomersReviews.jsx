@@ -8,7 +8,7 @@ import { Keyboard, Scrollbar, Navigation } from 'swiper/modules';
 import { OUR_CUSTOMERS_DATA_LIST } from '../common/Helper';
 import Heading from '../common/Heading';
 
-const Reviews = () => {
+const CustomersReviews = () => {
     return (
         <div className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto'>
             <div className="container">
@@ -79,4 +79,4 @@ const Reviews = () => {
     )
 }
 
-export default Reviews
+export default CustomersReviews

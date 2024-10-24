@@ -2,7 +2,7 @@ import Heading from '../common/Heading'
 import Icon from '../common/Icons'
 import { NEWS_EVENTS_DATA_LIST } from '../common/Helper';
 
-const Events = () => {
+const NewsEvents = () => {
     return (
         <div className='py-14 bg-deep-gray overflow-hidden'>
             <div className="container pb-1 lg:mb-11">
@@ -43,4 +43,4 @@ const Events = () => {
     )
 }
 
-export default Events
+export default NewsEvents

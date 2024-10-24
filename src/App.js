@@ -1,31 +1,31 @@
 import PreLoader from './components/common/PreLoader';
 import ScrollToTop from './components/common/ScrollToTop';
-import Brands from './components/home/Brands';
-import Events from './components/home/Events';
-import Facilities from './components/home/Facilities';
-import Footer from './components/home/Footer';
-import Gallery from './components/home/Gallery';
-import HelpCenter from './components/home/HelpCenter';
 import Hero from './components/home/Hero';
-import Member from './components/home/Member';
-import Reviews from './components/home/Reviews';
-import Space from './components/home/Space';
-import Workspace from './components/home/Workspace';
+import OurSpaces from './components/home/OurSpaces';
+import WhyFrispes from './components/home/WhyFrispes';
+import OurFacilities from './components/home/OurFacilities';
+import FrispesGallery from './components/home/FrispesGallery';
+import WhoUsesFrispes from './components/home/WhoUsesFrispes';
+import CustomersReviews from './components/home/CustomersReviews';
+import OurHelpCenter from './components/home/OurHelpCenter';
+import NewsEvents from './components/home/NewsEvents';
+import ReadyToTry from './components/home/ReadyToTry';
+import Footer from './components/home/Footer';
 import './App.css';
 
 function App() {
   return (
     <>
       <Hero />
-      <Space />
-      <Workspace />
-      <Facilities />
-      <Gallery />
-      <Brands />
-      <Reviews />
-      <HelpCenter />
-      <Events />
-      <Member />
+      <OurSpaces />
+      <WhyFrispes />
+      <OurFacilities />
+      <FrispesGallery />
+      <WhoUsesFrispes />
+      <CustomersReviews />
+      <OurHelpCenter />
+      <NewsEvents />
+      <ReadyToTry />
       <Footer />
       <ScrollToTop />
       <PreLoader />

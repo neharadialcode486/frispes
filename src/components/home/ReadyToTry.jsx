@@ -3,7 +3,7 @@ import Button from '../common/Button';
 import Heading from "../common/Heading";
 import Paragraph from "../common/Paragraph";
 
-const Member = () => {
+const ReadyToTry = () => {
     return (
         <div className='sm:py-16 py-14 bg-deep-blue overflow-hidden -mt-1'>
             <div className="container relative mt-2.5 mb-3.5 pb-1">
@@ -21,4 +21,4 @@ const Member = () => {
     )
 }
 
-export default Member
+export default ReadyToTry
