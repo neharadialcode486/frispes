@@ -5,20 +5,20 @@ import work from "../../assets/images/webp/work-img.webp";
 import home from "../../assets/images/webp/home-work.webp";
 import officeWork from "../../assets/images/webp/office-work.webp";
 import google from "../../assets/images/webp/google.webp";
-import tokopedio from "../../assets/images/webp/tokopedio.webp";
+import tokopedia from "../../assets/images/webp/tokopedia.webp";
 import upwork from "../../assets/images/webp/upwork.webp";
 import microsoft from "../../assets/images/webp/microsoft.webp";
 import shopify from "../../assets/images/webp/shopify.webp";
 import stripe from "../../assets/images/webp/stripe.webp";
-import pedro from "../../assets/images/png/pedro.png";
-import raymond from "../../assets/images/png/raymond.png";
-import berlian from "../../assets/images/png/berlian.png";
-import pichai from "../../assets/images/png/sunder-pichai.png";
-import minimal from "../../assets/images/png/minimal.png";
-import franck from "../../assets/images/png/franck.png";
-import elizabeth from "../../assets/images/png/elizabeth.png";
-import mykola from "../../assets/images/png/mykola.png";
-import ceo from "../../assets/images/png/google-ceo.png";
+import pedro from "../../assets/images/webp/pedro.webp";
+import raymond from "../../assets/images/webp/raymond.webp";
+import berlian from "../../assets/images/webp/berlian.webp";
+import pichai from "../../assets/images/webp/sunder-pichai.webp";
+import minimal from "../../assets/images/webp/minimal.webp";
+import franck from "../../assets/images/webp/franck.webp";
+import elizabeth from "../../assets/images/webp/elizabeth.webp";
+import mykola from "../../assets/images/webp/mykola.webp";
+import ceo from "../../assets/images/webp/google-ceo.webp";
 export const HEADER_DATA = [
     { heading: "Home", url: "/" },
     { heading: "Workspace", url: "#Workspace" },
@@ -81,12 +81,12 @@ export const GALLERY_DATA = [
     { img: officeWork },
 ]
 export const IMAGES_DATA = [
-    { img: google, url: "" },
-    { img: tokopedio, url: "" },
-    { img: upwork, url: "" },
-    { img: microsoft, url: "" },
-    { img: shopify, url: "" },
-    { img: stripe, url: "" },
+    { img: google, url: "https://www.google.com/" },
+    { img: tokopedia, url: "https://www.tokopedia.com/" },
+    { img: upwork, url: "https://www.upwork.com/" },
+    { img: microsoft, url: "https://www.microsoft.com/en-in/" },
+    { img: shopify, url: "https://www.shopify.com/" },
+    { img: stripe, url: "https://stripe.com/in" },
 ]
 export const FOOTER_DATA = [
     {
@@ -122,9 +122,9 @@ export const FOOTER_DATA = [
     },
 ]
 export const ICON_DATA = [
-    { icon: "instaIcon", url: "" },
-    { icon: "youTubeIcon", url: "" },
-    { icon: "faceBookIcon", url: "" },
+    { icon: "instaIcon", url: "https://www.instagram.com/accounts/login/?hl=en" },
+    { icon: "youTubeIcon", url: "https://www.youtube.com/" },
+    { icon: "faceBookIcon", url: "https://www.facebook.com/" },
 ]
 export const REVIEWS_DATA = [
     { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", img: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
