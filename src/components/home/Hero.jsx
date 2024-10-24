@@ -42,7 +42,7 @@ const Hero = () => {
                     <p className='max-w-[667px] w-full font-lora font-bold text-center lg:text-left text-3xl sm:text-4xl md:text-5xl xl:text-custom-xl md:leading-custom-xl xl:leading-custom-2xl text-deep-blue'>
                         <span className='text-off-red'>Revolutionary</span> co-working space to realize your innovation
                     </p>
-                    <Paragraph className='max-w-[382px] text-center lg:text-left w-full lg:w-7/12 xl:w-full text-off-gray' data='In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets' />
+                    <Paragraph className='max-w-[382px] text-center lg:text-left w-full lg:w-7/12 xl:w-full text-off-gray'>In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</Paragraph>
                 </div>
                 <div className="bg-deep-blue max-w-[445px] md:mt-16 sm:mt-12 mt-10 w-full sm:min-h-[459px] mx-auto lg:mx-0 px-4 sm:px-10 py-5 sm:py-8">
                     <p className='font-lora font-bold text-white text-3xl sm:text-custom-lg sm:mt-2.5 sm:leading-[43.52px]'>Find your space now</p>
@@ -86,7 +86,7 @@ const Hero = () => {
                             )}
                         </div>
                     ))}
-                    <Button className='uppercase w-full py-3 mt-[22px] hover:!shadow-5xl' text='FIND MY SPACE' />
+                    <Button className='uppercase w-full py-3 mt-[22px] hover:!shadow-5xl'>FIND MY SPACE</Button>
                 </div>
             </div>
             <img src={heroImage} alt="heroImage" className='max-w-[960px] w-full absolute bottom-0 right-0' />

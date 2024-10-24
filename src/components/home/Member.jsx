@@ -12,8 +12,8 @@ const Member = () => {
                         Became a member <span className='bg-white flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                     </p>
                     <Heading className="mt-2 text-white text-center lg:text-left">Ready to try different work experience now?</Heading>
-                    <Paragraph className="!font-normal text-center lg:text-left text-medium-gray mt-2 sm:mt-4" data='Get the best working experience that you never feel before' />
-                    <Button className='uppercase w-full py-2 text-base sm:text-lg lg:py-[11.5px] max-w-[250px] sm:max-w-[300px] lg:max-w-[350px] mt-5 sm:mt-8 hover:!shadow-5xl block lg:mx-0 mx-auto' text='SIGN UP NOW' />
+                    <Paragraph className="!font-normal text-center lg:text-left text-medium-gray mt-2 sm:mt-4">Get the best working experience that you never feel before</Paragraph>
+                    <Button className='uppercase w-full py-2 text-base sm:text-lg lg:py-[11.5px] max-w-[250px] sm:max-w-[300px] lg:max-w-[350px] mt-5 sm:mt-8 hover:!shadow-5xl block lg:mx-0 mx-auto'>SIGN UP NOW</Button>
                 </div>
                 <img src={member} alt="member" className="lg:max-w-[377px] max-w-[300px] w-full absolute right-10 xl:right-20 top-[56%] lg:opacity-100 opacity-50 sm:opacity-70 -translate-y-1/2" />
             </div>

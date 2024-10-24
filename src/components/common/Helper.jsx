@@ -72,7 +72,7 @@ export const WHY_FRISPES_DATA_LIST = [
     },
 ]
 export const IMMERSIVE_BEAUTIFUL_DATA_LIST = [gallery, work, home, officeWork, gallery, work, home, officeWork,]
-export const BRANDS_DATA = [
+export const WHO_USES_FRISPES_DATA_LIST = [
     { image: google, URL: "https://www.google.com/" },
     { image: tokopedia, URL: "https://www.tokopedia.com/" },
     { image: upwork, URL: "https://www.upwork.com/" },
@@ -80,38 +80,38 @@ export const BRANDS_DATA = [
     { image: shopify, URL: "https://www.shopify.com/" },
     { image: stripe, URL: "https://stripe.com/in" },
 ]
-export const FOOTER_DATA = [
+export const FOOTER_DATA_LIST = [
     {
-        heading: "Spaces", data: [
-            { subHeading: "Co-working spaces", URL: "" },
-            { subHeading: "Meeting rooms", URL: "" },
-            { subHeading: "Event spaces", URL: "" },
-            { subHeading: "Child playground", URL: "" },
-            { subHeading: "Cafe & resto", URL: "" },
+        title: "Spaces", list: [
+            { subTitle: "Co-working spaces", URL: "#" },
+            { subTitle: "Meeting rooms", URL: "#" },
+            { subTitle: "Event spaces", URL: "#" },
+            { subTitle: "Child playground", URL: "#" },
+            { subTitle: "Cafe & resto", URL: "#" },
         ]
     },
     {
-        heading: "Company", data: [
-            { subHeading: "About Us", URL: "" },
-            { subHeading: "Pricing", URL: "" },
-            { subHeading: "Careers", URL: "" },
-            { subHeading: "Press", URL: "" },
+        title: "Company", list: [
+            { subTitle: "About Us", URL: "#" },
+            { subTitle: "Pricing", URL: "#" },
+            { subTitle: "Careers", URL: "#" },
+            { subTitle: "Press", URL: "#" },
         ]
     },
     {
-        heading: "Support", data: [
-            { subHeading: "FAQs", URL: "" },
-            { subHeading: "Privacy Policy", URL: "" },
-            { subHeading: "Help", URL: "" },
+        title: "Support", list: [
+            { subTitle: "FAQs", URL: "#" },
+            { subTitle: "Privacy Policy", URL: "#" },
+            { subTitle: "Help", URL: "#" },
         ]
     },
 ]
-export const FOOTERCONTACT_DATA = [
-    { text: "E.", subHeading: "Hello@frispes.com", URL: "mailto:Hello@frispes.com" },
-    { text: "A.", subHeading: "Jalan Jayakatwang  No.301 Ngasem, Kediri", URL: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
-    { text: "P.", subHeading: "(+62) 82334670000", URL: "callto:82334670000" },
+export const FOOTERCONTACT_DATA_LIST = [
+    { text: "E.", subTitle: "Hello@frispes.com", URL: "mailto:Hello@frispes.com" },
+    { text: "A.", subTitle: "Jalan Jayakatwang  No.301 Ngasem, Kediri", URL: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
+    { text: "P.", subTitle: "(+62) 82334670000", URL: "callto:82334670000" },
 ]
-export const ICON_DATA = [
+export const SOCAL_MEDIA_DATA_LIST = [
     { icon: "instaIcon", URL: "https://www.instagram.com/accounts/login/?hl=en" },
     { icon: "youTubeIcon", URL: "https://www.youtube.com/" },
     { icon: "faceBookIcon", URL: "https://www.facebook.com/" },

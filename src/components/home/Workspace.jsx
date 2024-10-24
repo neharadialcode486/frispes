@@ -28,9 +28,9 @@ const Workspace = () => {
                             Why Frispes <span className='bg-white flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                         </p>
                         <Heading className='text-white mt-2 text-center lg:text-left'>We revolutionize your workspace</Heading>
-                        <Paragraph className='text-white mt-6 text-center lg:text-left' data="With a decade of insights and expertise, we're decided to reimagine co-working space, designed to help a new startup grow up and realize their ideas so they can give a positive impacts on many people" />
+                        <Paragraph className='text-white mt-6 text-center lg:text-left'>With a decade of insights and expertise, we're decided to reimagine co-working space, designed to help a new startup grow up and realize their ideas so they can give a positive impacts on many people</Paragraph>
                     </div>
-                </div>    
+                </div>
             </div>
         </div>
     )

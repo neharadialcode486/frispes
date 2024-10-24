@@ -31,12 +31,12 @@ const Header = () => {
                             </a>
                         ))}
                         <button className='text-off-orange transition-slow sm:hidden hover:text-deep-blue font-lato font-bold text-base leading-5'>Log In</button>
-                        <Button className='py-3 text-base leading-5 px-6 sm:hidden' text="Sign Up" />
+                        <Button className='py-3 text-base leading-5 px-6 sm:hidden'>Sign Up</Button>
                     </div>
                     <div className="flex gap-6 items-center">
                         <div className="flex items-center gap-6">
                             <button className='text-off-orange transition-slow hidden sm:block hover:text-deep-blue font-lato font-bold text-base leading-5'>Log In</button>
-                            <Button className='py-3 text-base leading-5 px-6 hidden sm:block' text="Sign Up" />
+                            <Button className='py-3 text-base leading-5 px-6 hidden sm:block'>Sign Up</Button>
                         </div>
                         <div role="button" aria-label="menu icon" aria-expanded={open} onClick={toggleOpen} className="w-7 h-5 rounded-full relative lg:hidden flex z-[100] cursor-pointer transition-slow">
                             {[...Array(3)].map((_, index) => (
