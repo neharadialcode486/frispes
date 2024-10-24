@@ -72,10 +72,10 @@ export const GALLERY_DATA = [
     { img: officeWork },
 ]
 export const IMAGES_DATA = [
-    { img: google },
-    { img: tokopedio },
-    { img: upwork },
-    { img: microsoft },
-    { img: shopify },
-    { img: stripe },
+    { img: google, url: "" },
+    { img: tokopedio, url: "" },
+    { img: upwork, url: "" },
+    { img: microsoft, url: "" },
+    { img: shopify, url: "" },
+    { img: stripe, url: "" },
 ]
