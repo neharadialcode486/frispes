@@ -106,44 +106,43 @@ export const FOOTER_DATA_LIST = [
         ]
     },
 ]
-export const FOOTERCONTACT_DATA_LIST = [
+export const FOOTER_CONTACT_DATA_LIST = [
     { text: "E.", subTitle: "Hello@frispes.com", URL: "mailto:Hello@frispes.com" },
     { text: "A.", subTitle: "Jalan Jayakatwang  No.301 Ngasem, Kediri", URL: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
     { text: "P.", subTitle: "(+62) 82334670000", URL: "callto:82334670000" },
 ]
-export const SOCAL_MEDIA_DATA_LIST = [
+export const SOCIAL_MEDIA_DATA_LIST = [
     { icon: "instaIcon", URL: "https://www.instagram.com/accounts/login/?hl=en" },
     { icon: "youTubeIcon", URL: "https://www.youtube.com/" },
     { icon: "faceBookIcon", URL: "https://www.facebook.com/" },
 ]
-export const REVIEWS_DATA = [
-    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
-    { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", image: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
-    { text: "Just three words : Frispes is Awesome!", image: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
-    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
-    { text: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", image: raymond, title: "Raymond Thual", data: "Professional Freelancer" },
-    { text: "Just three words : Frispes is Awesome!", image: berlian, title: "Yuli Berlian", data: "IOS Dev at Tokopedia" },
-    { text: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, title: "Pedro Ibanez", data: "UI Designer at Google" },
+export const OUR_CUSTOMERS_DATA_LIST = [
+    { description: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, name: "Pedro Ibanez", profession: "UI Designer at Google" },
+    { description: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", image: raymond, name: "Raymond Thual", profession: "Professional Freelancer" },
+    { description: "Just three words : Frispes is Awesome!", image: berlian, name: "Yuli Berlian", profession: "IOS Dev at Tokopedia" },
+    { description: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, name: "Pedro Ibanez", profession: "UI Designer at Google" },
+    { description: "The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.", image: raymond, name: "Raymond Thual", profession: "Professional Freelancer" },
+    { description: "Just three words : Frispes is Awesome!", image: berlian, name: "Yuli Berlian", profession: "IOS Dev at Tokopedia" },
+    { description: "Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.", image: pedro, name: "Pedro Ibanez", profession: "UI Designer at Google" },
 ]
-export const CARD_DATA = [
-    { image: pichai, title: "Google I / O 2020 news update", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: ceo, name: "Sundar pichai", work: "CEO at Google" },
-    { image: pichai, title: "Minimal workspace for inspirations", text: "Anthony Masional", heading: "Google I / O 2020 news update", data: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
-    { image: minimal, title: "Minimal workspace for inspirations", text: "Anthony Masional", heading: "Minimal for inspirations", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: raymond, name: "Raymond Thual", work: "Professional Freelancer" },
-    { image: franck, title: "Does productivity increase when working remotely ? ", text: "Franck Martin", heading: "Does increase when working", data: "Our team has been working at frispes for almost 2 months because our office still closed", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
-    { image: elizabeth, title: "Morning routine to boost your mood", text: "Elizabeth swan", heading: "Morning routine to boost your", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: pedro, name: "Pedro Ibanez", work: "UI Designer at Google" },
-    { image: mykola, title: "5+ tips to find comfortable co-working space", text: "Mykola Ilschenko", heading: "5+ tips to find comfortable", data: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: berlian, name: "Yuli Berlian", work: "IOS Dev at Tokopedia" },
+export const NEWS_EVENTS_DATA_LIST = [
+    { image: pichai, title: "Google I / O 2020 news update", author: "Anthony Masional", subTitle: "Google I / O 2020 news update", description: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: ceo, name: "Sundar pichai", profession: "CEO at Google" },
+    { image: pichai, title: "Minimal workspace for inspirations", author: "Anthony Masional", subTitle: "Google I / O 2020 news update", description: "Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...", icon: pedro, name: "Pedro Ibanez", profession: "UI Designer at Google" },
+    { image: minimal, title: "Minimal workspace for inspirations", author: "Anthony Masional", subTitle: "Minimal for inspirations", description: "Our team has been working at frispes for almost 2 months because our office still closed", icon: raymond, name: "Raymond Thual", profession: "Professional Freelancer" },
+    { image: franck, title: "Does productivity increase when working remotely ? ", author: "Franck Martin", subTitle: "Does increase when working", description: "Our team has been working at frispes for almost 2 months because our office still closed", icon: berlian, name: "Yuli Berlian", profession: "IOS Dev at Tokopedia" },
+    { image: elizabeth, title: "Morning routine to boost your mood", author: "Elizabeth swan", subTitle: "Morning routine to boost your", description: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: pedro, name: "Pedro Ibanez", profession: "UI Designer at Google" },
+    { image: mykola, title: "5+ tips to find comfortable co-working space", author: "Mykola Ilschenko", subTitle: "5+ tips to find comfortable", description: "The high-speed internet at frispes was so amazing. I can get best experience I can get best experience", icon: berlian, name: "Yuli Berlian", profession: "IOS Dev at Tokopedia" },
 ]
-export const TABS_DATA = [
-    { title: "parking", text: "Spacious parking area" },
-    { title: "spaces", text: "Comfortable spaces" },
-    { title: "cafe", text: "Cozy cafe" },
-    { title: "playground", text: "Child playground" },
-    { title: "outdoor", text: "Outdoor spaces" },
-    { title: "parking", text: "Spacious parking area" },
-    { title: "spaces", text: "Comfortable spaces" },
+export const OUR_FACILITIES_DATA_LIST = [
+    { title: "parking", description: "Spacious parking area" },
+    { title: "spaces", description: "Comfortable spaces" },
+    { title: "cafe", description: "Cozy cafe" },
+    { title: "playground", description: "Child playground" },
+    { title: "outdoor", description: "Outdoor spaces" },
+    { title: "parking", description: "Spacious parking area" },
+    { title: "spaces", description: "Comfortable spaces" },
 ];
-
-export const FACILITIES_DATA = [
+export const OUR_FACILITIES_THUMNAIL_DATA_LIST = [
     { image: coffee },
     { image: team },
     { image: gallery },

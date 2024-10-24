@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Keyboard, Scrollbar, Pagination, Mousewheel } from 'swiper/modules';
-import { FACILITIES_DATA, TABS_DATA } from "../common/Helper";
+import { OUR_FACILITIES_THUMNAIL_DATA_LIST, OUR_FACILITIES_DATA_LIST } from "../common/Helper";
 const slugify = (text) => text.toLowerCase().replace(/\s+/g, '-');
 
 const Facilities = () => {
@@ -14,7 +14,7 @@ const Facilities = () => {
     const [activeTab, setActiveTab] = useState(0);
     useEffect(() => {
         if (typeof tabName === 'string') {
-            const tabIndex = TABS_DATA.findIndex(tab => slugify(tab.text) === tabName);
+            const tabIndex = OUR_FACILITIES_DATA_LIST.findIndex(tab => slugify(tab.description) === tabName);
             setActiveTab(tabIndex !== -1 ? tabIndex : 0);
         } else {
             setActiveTab(0);
@@ -57,22 +57,22 @@ const Facilities = () => {
                                 }
                             }}
                         >
-                            {TABS_DATA.map((tab, idx) => (
+                            {OUR_FACILITIES_DATA_LIST.map((tab, idx) => (
                                 <SwiperSlide key={idx}>
-                                    <a href={`/${slugify(tab.text)}`}
+                                    <a href={`/${slugify(tab.description)}`}
                                         className={`font-lato text-xl w-full text-nowrap flex justify-center lg:justify-start p-6 h-full leading-6 ${activeTab === idx ? "text-white bg-off-orange" : "text-off-black"}`}
-                                        onClick={(e) => { e.preventDefault(); handleClick(idx, tab.text); }}>
-                                        {tab.text}
+                                        onClick={(e) => { e.preventDefault(); handleClick(idx, tab.description); }}>
+                                        {tab.description}
                                     </a>
                                 </SwiperSlide>
                             ))}
                         </Swiper>
                     </div>
                     <div className="max-w-[729px] w-full">
-                        {FACILITIES_DATA[activeTab] && (
+                        {OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab] && (
                             <img
-                                src={FACILITIES_DATA[activeTab].image}
-                                alt={FACILITIES_DATA[activeTab].image}
+                                src={OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab].image}
+                                alt={OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab].image}
                                 className='max-w-[729px] w-full h-full max-h-[453px] object-cover'
                             />
                         )}

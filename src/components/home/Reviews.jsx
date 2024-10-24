@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import { Keyboard, Scrollbar, Navigation } from 'swiper/modules';
-import { REVIEWS_DATA } from '../common/Helper';
+import { OUR_CUSTOMERS_DATA_LIST } from '../common/Helper';
 import Heading from '../common/Heading';
 
 const Reviews = () => {
@@ -57,16 +57,16 @@ const Reviews = () => {
                         },
                     }}
                 >
-                    {REVIEWS_DATA.map((items, index) => (
+                    {OUR_CUSTOMERS_DATA_LIST.map((items, index) => (
                         <SwiperSlide key={index}>
                             <div className="relative min-h-[393px] w-full bg-deep-blue overflow-hidden flex justify-center px-4 pb-9 pt-12">
                                 <div className="max-w-[365px] w-full flex flex-col justify-between">
-                                    <p className='font-lato font-normal text-base leading-custom-sm text-white xl:pr-2'>{items.text}</p>
+                                    <p className='font-lato font-normal text-base leading-custom-sm text-white xl:pr-2'>{items.description}</p>
                                     <div className="flex gap-4">
                                         <img src={items.image} alt={items.image} className='w-14 h-14' />
                                         <div className="flex flex-col">
-                                            <p className='font-lato text-white font-bold text-lg'>{items.title}</p>
-                                            <p className='font-lato text-white font-normal text-base leading-custom-sm mt-1'>{items.data}</p>
+                                            <p className='font-lato text-white font-bold text-lg'>{items.name}</p>
+                                            <p className='font-lato text-white font-normal text-base leading-custom-sm mt-1'>{items.profession}</p>
                                         </div>
                                     </div>
                                 </div>
