@@ -22,6 +22,7 @@ module.exports = {
       },
       colors: {
         'deep-blue': "#10375C",
+        'deep-gray': "#F8F8F8",
         'off-black': "#222831",
         'off-orange': "#FF5722",
         'off-red': "#DD2C00",
@@ -33,11 +34,15 @@ module.exports = {
         '3xl': "0px 4px 16px 0px #FF572252",
         '4xl': "0px 0px 0px 2px #10375C, 2px 2px 0px 2px #FFFFFF, 4px 4px 0px 2px #FF5722",
         '5xl': "0px 0px 0px 2px #FFFFFF, 2px 2px 0px 2px #10375C, 4px 4px 0px 2px #FF5722",
+        '5xl': "0px 5px 17px 0px #DFDFDF80",
+        '6xl': "-10px 5px 17px 0px #DFDFDFB2",
+        '7xl': "-10px 5px 17px 0px #DD2C003D",
       },
       dropShadow: {
         '3xl': "1px 1px 0px #222831",
       },
       fontSize: {
+        'custom-xs': "26px",
         'custom-sm': "32px",
         'custom-lg': "34px",
         'custom-xl': "52px",
