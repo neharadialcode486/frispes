@@ -59,7 +59,7 @@ const Hero = () => {
                                         {selectedLocation[index]}
                                     </p>
                                 </div>
-                                <Icon className={`${active === index ? "rotate-180" : ""} relative transition-slow`} iconName='downArrowIcon' />
+                                <Icon className={`${active === index ? "rotate-180" : ""} relative transition-slow`} iconName='downArrow' />
                             </button>
                             {active === index && index < 2 && (
                                 <div className='bg-off-blue absolute z-20 top-full border border-white flex flex-col items-start mt-2 w-full py-4 left-0'>

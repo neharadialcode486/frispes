@@ -16,8 +16,8 @@ const OurSpaces = () => {
                     <Heading className='text-deep-blue mb-1 sm:mb-2'>Our Spaces</Heading>
                     <p className='font-medium font-lato text-lg text-center md:text-left text-light-gray max-w-[452px]'>Our space is designed to give you a different experience when working with your team or personally</p>
                     <div className="flex gap-6 w-full justify-center mt-5 lg:w-fit">
-                        <Icon className='cursor-pointer customPrev transition-slow hover:scale-95' iconName='leftArrowIcon' />
-                        <Icon className='cursor-pointer customNext transition-slow hover:scale-95' iconName='rightArrowIcon' />
+                        <Icon className='cursor-pointer customPrev transition-slow hover:scale-95' iconName='leftArrow' />
+                        <Icon className='cursor-pointer customNext transition-slow hover:scale-95' iconName='rightArrow' />
                     </div>
                 </div>
                 <div className="md:mt-12 sm:mt-8 mt-5 pt-1">
@@ -55,12 +55,12 @@ const OurSpaces = () => {
                                 <div className="relative w-full group overflow-hidden">
                                     <img src={items.image} alt={items.image} className='w-full' />
                                     <p className='mt-6 text-center text-off-black font-lato font-bold text-xl leading-6'>{items.title}</p>
-                                    <Icon className='-rotate-90 h-[72px] w-[72px] p-5 bottom-12 absolute bg-off-orange z-[1] left-0 justify-center items-center' iconName='downArrowIcon' />
+                                    <Icon className='-rotate-90 h-[72px] w-[72px] p-5 bottom-12 absolute bg-off-orange z-[1] left-0 justify-center items-center' iconName='downArrow' />
                                     <div className="bg-deep-blue absolute top-0 left-0 px-2 overflow-hidden w-full h-full -z-[1] opacity-0 group-hover:opacity-100 group-hover:z-10 transition-slow flex flex-col justify-center items-center">
                                         <p className='font-lora font-normal text-white text-center text-custom-sm leading-10'>{items.title}</p>
                                         <p className='mt-3.5 text-white text-center font-medium font-lato text-lg max-w-[253px]'>Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
-                                        <Icon iconName='lineIcon' className='absolute top-4 right-4' />
-                                        <button className='bg-off-orange hover:bg-white hover:text-deep-blue border border-off-orange z-10 max-w-[255px] transition-slow w-full justify-end items-center flex h-[72px] gap-7 group-hover:gap-5 font-lato font-bold text-lg leading-5 text-white absolute bottom-0 left-0 p-5'>Check avaibility <Icon className='-rotate-90 relative w-8 h-8 justify-center items-center' iconName='downArrowIcon' /></button>
+                                        <Icon iconName='grayLine' className='absolute top-4 right-4' />
+                                        <button className='bg-off-orange hover:bg-white hover:text-deep-blue border border-off-orange z-10 max-w-[255px] transition-slow w-full justify-end items-center flex h-[72px] gap-7 group-hover:gap-5 font-lato font-bold text-lg leading-5 text-white absolute bottom-0 left-0 p-5'>Check avaibility <Icon className='-rotate-90 relative w-8 h-8 justify-center items-center' iconName='downArrow' /></button>
                                     </div>
                                 </div>
                             </SwiperSlide>

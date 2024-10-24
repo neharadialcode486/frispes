@@ -17,8 +17,8 @@ const FrispesGallery = () => {
                     <Heading className='text-deep-blue mt-2'>Immersive beautiful</Heading>
                     <Heading className='text-deep-blue'>co-working space gallery</Heading>
                     <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 lg:w-fit">
-                        <Icon className='cursor-pointer prev transition-slow hover:scale-95' iconName='leftArrowIcon' />
-                        <Icon className='cursor-pointer next transition-slow hover:scale-95' iconName='rightArrowIcon' />
+                        <Icon className='cursor-pointer prev transition-slow hover:scale-95' iconName='leftArrow' />
+                        <Icon className='cursor-pointer next transition-slow hover:scale-95' iconName='rightArrow' />
                     </div>
                 </div>
             </div>

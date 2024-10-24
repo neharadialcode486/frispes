@@ -20,8 +20,8 @@ const CustomersReviews = () => {
                         <Heading className='text-deep-blue mt-2 text-center md:text-left'>What our customers are saying</Heading>
                     </div>
                     <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 lg:w-fit">
-                        <Icon className='cursor-pointer prevButton transition-slow hover:scale-95' iconName='leftArrowIcon' />
-                        <Icon className='cursor-pointer nextButton transition-slow hover:scale-95' iconName='rightArrowIcon' />
+                        <Icon className='cursor-pointer prevButton transition-slow hover:scale-95' iconName='leftArrow' />
+                        <Icon className='cursor-pointer nextButton transition-slow hover:scale-95' iconName='rightArrow' />
                     </div>
                 </div>
             </div>
