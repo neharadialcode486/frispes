@@ -7,6 +7,7 @@ import { FIND_YOUR_SPACE_LIST } from '../common/Helper';
 import Button from '../common/Button';
 
 const Hero = () => {
+
     const [active, setActive] = useState(null);
     const [selectedLocation, setSelectedLocation] = useState({
         0: "Malang, Indonesia",
@@ -32,7 +33,7 @@ const Hero = () => {
     };
 
     return (
-        <section className='sm:py-5 py-3 relative max-w-[1920px] mx-auto'>
+        <section className='sm:py-5 py-3 relative max-w-[1920px] mx-auto' id='hero'>
             <Header />
             <div className="container mt-4 mb-14 relative z-10">
                 <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>

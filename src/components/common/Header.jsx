@@ -3,6 +3,7 @@ import { NAVBAR_DATA_LIST } from './Helper';
 import Button from './Button';
 
 const Header = () => {
+
     const [open, setOpen] = useState(false);
     const toggleOpen = () => {
         if (window.innerWidth < 1024) {
@@ -19,6 +20,7 @@ const Header = () => {
             window.removeEventListener("resize", handleOverflow);
         };
     }, [open]);
+    
     return (
         <div className="lg:py-10 md:py-5 py-1 relative z-50">
             <div className="container">

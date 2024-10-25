@@ -10,6 +10,7 @@ import { OUR_FACILITIES_THUMNAIL_DATA_LIST, OUR_FACILITIES_DATA_LIST } from "../
 const slugify = (text) => text.toLowerCase().replace(/\s+/g, '-');
 
 const OurFacilities = () => {
+
     const { tabName } = useParams();
     const [activeTab, setActiveTab] = useState(0);
     useEffect(() => {
@@ -20,13 +21,13 @@ const OurFacilities = () => {
             setActiveTab(0);
         }
     }, [tabName]);
-    const handleClick = (idx, text) => {
-        setActiveTab(idx);
+    const handleClick = (index, text) => {
+        setActiveTab(index);
         window.history.pushState(null, '', `/${slugify(text)}`);
     };
 
     return (
-        <section className='py-4'>
+        <section className='py-4' id='service'>
             <div className="container mt-20">
                 <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                     Our Facilities <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
@@ -57,11 +58,11 @@ const OurFacilities = () => {
                                 }
                             }}
                         >
-                            {OUR_FACILITIES_DATA_LIST.map((tab, idx) => (
-                                <SwiperSlide key={idx}>
+                            {OUR_FACILITIES_DATA_LIST.map((tab, index) => (
+                                <SwiperSlide key={index}>
                                     <a href={`/${slugify(tab.description)}`}
-                                        className={`font-lato text-xl w-full text-nowrap flex justify-center lg:justify-start p-6 h-full leading-6 ${activeTab === idx ? "text-white bg-off-orange" : "text-off-black"}`}
-                                        onClick={(e) => { e.preventDefault(); handleClick(idx, tab.description); }}>
+                                        className={`font-lato text-xl w-full text-nowrap flex justify-center lg:justify-start p-6 h-full leading-6 ${activeTab === index ? "text-white bg-off-orange" : "text-off-black"}`}
+                                        onClick={(e) => { e.preventDefault(); handleClick(index, tab.description); }}>
                                         {tab.description}
                                     </a>
                                 </SwiperSlide>

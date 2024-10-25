@@ -10,7 +10,7 @@ import Heading from '../common/Heading';
 
 const CustomersReviews = () => {
     return (
-        <section className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto'>
+        <section className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto' id='reviews'>
             <div className="container">
                 <div className="flex flex-col md:flex-row justify-between items-center lg:items-end w-full">
                     <div className="flex flex-col max-w-[399px] w-full">

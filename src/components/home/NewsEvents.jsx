@@ -4,7 +4,7 @@ import { NEWS_EVENTS_DATA_LIST } from '../common/Helper';
 
 const NewsEvents = () => {
     return (
-        <section className='py-14 bg-deep-gray overflow-hidden'>
+        <section className='py-14 bg-deep-gray overflow-hidden' id='events'>
             <div className="container pb-1 lg:mb-11">
                 <div className="flex sm:items-end flex-col items-center sm:flex-row justify-between">
                     <Heading className='text-deep-blue lg:mt-1 text-center sm:text-left'>News, events and insights for you</Heading>

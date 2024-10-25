@@ -21,7 +21,7 @@ import mykola from "../../assets/images/webp/mykola.webp";
 import ceo from "../../assets/images/webp/google-ceo.webp";
 import coffee from "../../assets/images/webp/coffee-shop.webp";
 export const NAVBAR_DATA_LIST = [
-    { title: "Home", URL: "/" },
+    { title: "Home", URL: "#hero" },
     { title: "Workspace", URL: "#workspace" },
     { title: "Service", URL: "#service" },
     { title: "Events", URL: "#events" },

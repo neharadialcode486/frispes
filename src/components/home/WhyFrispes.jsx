@@ -5,14 +5,14 @@ import Paragraph from '../common/Paragraph';
 
 const WhyFrispes = () => {
     return (
-        <section className='py-4'>
+        <section className='py-4' id='workspace'>
             <div className="container">
                 <div className="flex justify-between items-center gap-8 lg:flex-row flex-col">
                     <div className="w-full flex justify-between max-w-[499px]">
                         {WHY_FRISPES_DATA_LIST.map((items, index) => (
                             <div key={index} className="flex flex-col gap-12 sm:gap-16">
-                                {items.list.map((obj, idx) => (
-                                    <div key={idx} className="flex gap-3 sm:gap-6">
+                                {items.list.map((obj, lastIndex) => (
+                                    <div key={lastIndex} className="flex gap-3 sm:gap-6">
                                         <Icon iconName={obj.icon} />
                                         <div className="flex flex-col">
                                             <p className='text-deep-blue font-lora font-normal text-2xl sm:text-custom-3xl sm:leading-10'>{obj.title}</p>

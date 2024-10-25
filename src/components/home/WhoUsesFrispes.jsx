@@ -1,4 +1,3 @@
-import React from 'react'
 import Heading from '../common/Heading'
 import { WHO_USES_FRISPES_DATA_LIST } from '../common/Helper'
 
