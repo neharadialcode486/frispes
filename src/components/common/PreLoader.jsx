@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const PreLoader = () => {
+
     const [visible, setVisible] = useState(true);
     const [hide, setHide] = useState(false);
     useEffect(() => {
@@ -8,12 +9,10 @@ const PreLoader = () => {
         const timer = setTimeout(() => {
             setHide(true);
         }, 1300);
-
         const cleanupTimer = setTimeout(() => {
             setVisible(false);
             document.body.classList.remove('overflow-hidden');
         }, 2000);
-
         return () => {
             clearTimeout(timer);
             clearTimeout(cleanupTimer);

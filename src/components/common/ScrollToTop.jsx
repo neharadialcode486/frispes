@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import scrollIcon from "../../assets/images/svg/scroll-to-top.svg";
 
 const ScrollToTop = () => {
+
     const [visible, setVisible] = useState(false);
     const [isLargeScreen, setIsLargeScreen] = useState(false);
     const Scroll = () => {
