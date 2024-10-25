@@ -32,7 +32,7 @@ const Footer = () => {
                             <h2 className='font-lato text-xl font-medium text-white opacity-50'>Contact Us</h2>
                             <div className="flex flex-col gap-[9px] mt-3 sm:mt-6">
                                 {FOOTER_CONTACT_DATA_LIST.map((obj, index) => (
-                                    <a key={index} target={index === 1 ? "_blank" : undefined} rel={index === 1 ? "noreferrer" : undefined} href={obj.URL} className='w-fit font-lato font-normal text-white text-base transition-slow hover:text-off-orange leading-custom-xl flex gap-2'><span className='font-bold'>{obj.text}</span> {obj.subTitle}</a>
+                                    <a key={index} target={index === 1 ? "_blank" : undefined} rel={index === 1 ? "noreferrer" : undefined} href={obj.URL} className='w-fit font-lato font-normal text-white text-base transition-slow hover:text-off-orange leading-custom-xl flex gap-2'><span className='font-bold'>{obj.title}</span> {obj.subTitle}</a>
                                 ))}
                             </div>
                         </div>

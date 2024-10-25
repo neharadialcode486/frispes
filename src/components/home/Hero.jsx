@@ -52,7 +52,7 @@ const Hero = () => {
                             <button onClick={() => {
                                 toggleDropdown(index);
                             }}
-                                className="bg-off-blue px-4 py-2 w-full flex items-center justify-between cursor-pointer dropdown"
+                                className="bg-off-blue px-4 py-2.5 w-full flex items-center justify-between cursor-pointer dropdown"
                             >
                                 <div className="flex items-start flex-col">
                                     <p className='font-lato font-medium text-base leading-custom-xl text-white opacity-35'>{items.title}</p>
@@ -90,7 +90,7 @@ const Hero = () => {
                     <Button className='uppercase w-full py-3 mt-[22px] hover:!shadow-5xl'>FIND MY SPACE</Button>
                 </div>
             </div>
-            <img src={heroImage} alt="heroImage" className='max-w-[960px] w-full absolute bottom-0 right-0' />
+            <img src={heroImage} alt="heroImage" className='max-w-[960px] w-full absolute bottom-0 right-0 shadow-10xl' />
         </section>
     );
 };
