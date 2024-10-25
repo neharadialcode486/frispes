@@ -16,7 +16,7 @@ const OurSpaces = () => {
                     <Heading className='text-deep-blue mb-1 sm:mb-2'>Our Spaces</Heading>
                     <p className='font-medium font-lato text-lg text-center md:text-left text-light-gray max-w-[452px]'>Our space is designed to give you a different experience when working with your team or personally</p>
                     <div className="flex gap-6 mx-auto lg:mx-0 justify-center mt-5 w-fit">
-                        <Icon className='cursor-pointer customPrev group hover:!fill-white transition-slow hover:scale-95' iconName='leftArrow' />
+                        <Icon className='cursor-pointer customPrev group transition-slow hover:scale-95' iconName='leftArrow' />
                         <Icon className='cursor-pointer customNext group transition-slow hover:scale-95' iconName='rightArrow' />
                     </div>
                 </div>
