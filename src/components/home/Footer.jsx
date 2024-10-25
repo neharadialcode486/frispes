@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container lg:mb-11 pb-0.5">
                 <div className="flex justify-between lg:flex-row flex-col lg:gap-16 xl:gap-5">
                     <div className="lg:max-w-[255px] w-full">
-                        <a href="/" className='font-lora font-bold text-white text-custom-5xl leading-custom-5xl'>Frispes</a>
+                        <a href="/" className='font-lora font-bold text-white text-4xl md:text-5xl lg:text-custom-5xl lg:leading-custom-5xl'>Frispes</a>
                         <p className='font-lato text-base mt-4 opacity-85 text-deep-gray leading-custom-xl'>We offer comfortable spaces, cozy cafe, high-speed internet, spacious parking area and many more for your best workspaces and meetings</p>
                         <div className="flex items-center gap-4 mt-6">
                             {SOCIAL_MEDIA_DATA_LIST.map((data, index) => (

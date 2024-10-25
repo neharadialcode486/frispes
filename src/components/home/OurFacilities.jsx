@@ -28,12 +28,12 @@ const OurFacilities = () => {
 
     return (
         <section className='py-4' id='service'>
-            <div className="container mt-20">
+            <div className="container mt-12 lg:mt-20">
                 <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                     Our Facilities <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                 </p>
                 <Heading className='max-w-[570px] text-center lg:text-left mx-auto lg:mx-0 w-full text-deep-blue mt-2'>All facilities are designed to meet all your needs</Heading>
-                <div className="flex justify-between gap-5 lg:flex-row flex-col mt-12 pt-1">
+                <div className="flex justify-between gap-5 lg:flex-row flex-col mt-5 sm:mt-8 lg:mt-12 pt-1">
                     <div className="lg:max-w-[347px] block w-full facilities">
                         <Swiper
                             slidesPerView={1.5}
@@ -43,7 +43,7 @@ const OurFacilities = () => {
                             mousewheel={true}
                             modules={[Keyboard, Scrollbar, Mousewheel, Pagination]}
                             scrollbar={true}
-                            className="mySwiper lg:!pr-3.5 !pb-12 lg:!pb-0 lg:!pl-[50px] lg:!-ml-3.5 max-h-[360px]"
+                            className="mySwiper lg:!pr-3.5 !pb-14 lg:!pb-0 lg:!pl-[50px] lg:!-ml-3.5 max-h-[360px]"
                             breakpoints={{
                                 640: {
                                     slidesPerView: 2.5,
@@ -61,7 +61,7 @@ const OurFacilities = () => {
                             {OUR_FACILITIES_DATA_LIST.map((tab, index) => (
                                 <SwiperSlide key={index}>
                                     <a href={`/${slugify(tab.description)}`}
-                                        className={`font-lato text-xl font-medium w-full text-nowrap flex justify-center lg:justify-start p-6 h-full leading-6 ${activeTab === index ? "text-white bg-off-orange shadow-9xl" : "text-off-black"}`}
+                                        className={`font-lato text-xl font-medium w-full text-nowrap flex justify-center lg:justify-start py-3.5 px-5 md:p-6 h-full leading-6 ${activeTab === index ? "text-white bg-off-orange shadow-9xl" : "text-off-black"}`}
                                         onClick={(e) => { e.preventDefault(); handleClick(index, tab.description); }}>
                                         {tab.description}
                                     </a>
@@ -74,7 +74,7 @@ const OurFacilities = () => {
                             <img
                                 src={OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab].image}
                                 alt={OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab].image}
-                                className='max-w-[729px] w-full h-full max-h-[453px] object-cover'
+                                className='max-w-[729px] w-full h-full max-h-[208px] sm:max-h-[453px] object-cover'
                             />
                         )}
                     </div>

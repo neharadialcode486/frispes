@@ -33,9 +33,9 @@ const Hero = () => {
     };
 
     return (
-        <section className='sm:py-5 py-3 relative max-w-[1920px] mx-auto' id='hero'>
+        <section className='sm:py-5 lg:pb-12 xl:pb-5 py-3 relative max-w-[1920px] mx-auto' id='hero'>
             <Header />
-            <div className="container mt-4 mb-14 relative z-10">
+            <div className="container mt-16 pt-1.5 lg:pt-0 lg:mt-4 mb-14 relative z-10">
                 <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                     Introducing <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                 </p>
