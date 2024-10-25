@@ -8,7 +8,7 @@ const ReadyToTry = () => {
         <section className='sm:py-16 py-14 bg-deep-blue overflow-hidden -mt-1'>
             <div className="container relative mt-2.5 mb-3.5 pb-1">
                 <div className="lg:max-w-[445px] w-full relative z-10">
-                    <p className='font-lato font-medium text-xl text-white flex items-center w-fit mx-auto lg:mx-0 gap-4'>
+                    <p className='font-lato font-medium text-xl lg:leading-custom-2xls text-white flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                         Became a member <span className='bg-white flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                     </p>
                     <Heading className="mt-2 text-white text-center lg:text-left">Ready to try different work experience now?</Heading>

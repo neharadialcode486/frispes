@@ -16,7 +16,7 @@ const OurHelpCenter = () => {
                         </div>
                     ))}
                 </div>
-                <button className='mt-10 flex gap-5 items-center w-fit mx-auto font-lato font-normal text-base text-off-orange group hover:text-deep-blue'>More questions <Icon iconName='orangeArrow' /></button>
+                <button className='mt-10 flex transition-slow gap-5 items-center w-fit mx-auto font-lato font-normal text-base text-off-orange group hover:text-deep-blue'>More questions <Icon iconName='orangeArrow' /></button>
             </div>
         </section>
     )

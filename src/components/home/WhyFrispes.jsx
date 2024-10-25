@@ -16,7 +16,7 @@ const WhyFrispes = () => {
                                         <Icon iconName={obj.icon} />
                                         <div className="flex flex-col">
                                             <p className='text-deep-blue font-lora font-normal text-2xl sm:text-custom-3xl sm:leading-10'>{obj.title}</p>
-                                            <p className='mt-2 text-light-gray font-lato font-normal text-sm sm:text-base'>{obj.description}</p>
+                                            <p className='mt-2 text-light-gray font-lato font-normal text-sm sm:text-base lg:leading-custom-xl'>{obj.description}</p>
                                         </div>
                                     </div>
                                 ))}
@@ -24,7 +24,7 @@ const WhyFrispes = () => {
                         ))}
                     </div>
                     <div className="max-w-[540px] w-full bg-deep-blue p-7 sm:p-[53px]">
-                        <p className='font-lato font-medium text-xl text-white flex items-center w-fit mx-auto lg:mx-0 gap-4'>
+                        <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-white flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                             Why Frispes <span className='bg-white flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                         </p>
                         <Heading className='text-white mt-2 text-center lg:text-left'>We revolutionize your workspace</Heading>

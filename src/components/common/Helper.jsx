@@ -51,8 +51,6 @@ export const OUR_SPACE_DATA_LIST = [
     { image: office, title: "Private Space" },
     { image: office, title: "Custom Office" },
     { image: team, title: "Working with team" },
-    { image: office, title: "Private Space" },
-    { image: team, title: "Working with team" },
 ]
 export const WHY_FRISPES_DATA_LIST = [
     {

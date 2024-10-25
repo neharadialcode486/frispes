@@ -8,7 +8,7 @@ const NewsEvents = () => {
             <div className="container pb-1 lg:mb-11">
                 <div className="flex sm:items-end flex-col items-center sm:flex-row justify-between">
                     <Heading className='text-deep-blue lg:mt-1 text-center sm:text-left'>News, events and insights for you</Heading>
-                    <button className='flex gap-5 items-center w-fit font-lato font-normal text-base text-off-orange group hover:text-deep-blue'>See more <Icon iconName='orangeArrow' /></button>
+                    <button className='flex gap-5 items-center w-fit font-lato font-normal text-base text-off-orange transition-slow group hover:text-deep-blue'>See more <Icon iconName='orangeArrow' /></button>
                 </div>
                 <div className="flex justify-center flex-row flex-wrap -mx-3 md:-mx-[15px] sm:mt-6 pt-0.5">
                     {NEWS_EVENTS_DATA_LIST.map((items, index) => (

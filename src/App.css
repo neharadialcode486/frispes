@@ -19,6 +19,10 @@
     transition: all 300ms linear;
 }
 
+.scroll-button:hover .scroll-icon {
+    transform: rotateY(180deg);
+}
+
 .swiper-scrollbar {
     background-color: #DFDFDF !important;
     width: calc(18.5% - 2* var(--swiper-scrollbar-sides-offset, 2%)) !important;

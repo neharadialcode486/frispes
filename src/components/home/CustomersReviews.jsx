@@ -14,7 +14,7 @@ const CustomersReviews = () => {
             <div className="container">
                 <div className="flex flex-col md:flex-row justify-between items-center lg:items-end w-full">
                     <div className="flex flex-col max-w-[399px] w-full">
-                        <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto md:mx-0 gap-4'>
+                        <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-off-black flex items-center w-fit mx-auto md:mx-0 gap-4'>
                             Reviews <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                         </p>
                         <Heading className='text-deep-blue mt-2 text-center md:text-left'>What our customers are saying</Heading>
@@ -49,7 +49,7 @@ const CustomersReviews = () => {
                             spaceBetween: 30,
                         },
                         1024: {
-                            slidesPerView: 2.8,
+                            slidesPerView: 2.75,
                             spaceBetween: 30,
                         },
                         1536: {

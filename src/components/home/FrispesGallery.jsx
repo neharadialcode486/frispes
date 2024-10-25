@@ -11,7 +11,7 @@ const FrispesGallery = () => {
         <section className='lg:py-24 md:py-20 sm:py-16 py-14 overflow-hidden relative max-w-[1920px] mx-auto'>
             <div className="container relative">
                 <div className="lg:right-5 lg:absolute mx-auto lg:mx-0 flex flex-col items-center lg:items-start mb-7 md:mb-10 top-0 z-10 max-w-[496px] w-full">
-                    <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
+                    <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                         Frispes gallery <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                     </p>
                     <Heading className='text-deep-blue mt-2'>Immersive beautiful</Heading>
@@ -51,7 +51,7 @@ const FrispesGallery = () => {
                             slidesPerView: 3,
                         },
                         1280: {
-                            slidesPerView: 3.8
+                            slidesPerView: 3.1,
                         },
                     }}
                 >

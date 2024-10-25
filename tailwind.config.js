@@ -40,6 +40,7 @@ module.exports = {
         '8xl': "0px 5px 17px 0px #DFDFDF80",
         '9xl': "0px 4px 16px 0px #FF572252",
         '10xl': "0px 4px 4px 0px #00000040",
+        '11xl': "-2px 25px 20px -15px #10375C4D",
       },
       dropShadow: {
         '3xl': "1px 1px 0px #222831",
@@ -53,7 +54,7 @@ module.exports = {
         'custom-5xl': "52px",
       },
       lineHeight: {
-        'custom-sm': "26px",
+        'custom-xl': "26px",
         'custom-2xl': "30px",
         'custom-3xl': "51.2px",
         'custom-4xl': "56.56px",
