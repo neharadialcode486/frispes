@@ -38,7 +38,6 @@ const OurFacilities = () => {
                         <Swiper
                             slidesPerView={1.5}
                             spaceBetween={10}
-                            pagination={{ type: 'fraction' }}
                             loop={true}
                             mousewheel={true}
                             modules={[Keyboard, Scrollbar, Mousewheel, Pagination]}
@@ -56,6 +55,18 @@ const OurFacilities = () => {
                                     spaceBetween: 0,
                                     slidesPerView: 5,
                                 }
+                            }}
+                            pagination={{
+                                type: 'fraction',
+                                renderFraction: (currentClass, totalClass) => {
+                                    return `<span class="${currentClass}"></span><span> / </span><span class="${totalClass}"></span>`;
+                                },
+                                formatFractionCurrent: (number) => {
+                                    return number < 10 ? `0${number}` : number;
+                                },
+                                formatFractionTotal: (number) => {
+                                    return number < 10 ? `0${number}` : number;
+                                },
                             }}
                         >
                             {OUR_FACILITIES_DATA_LIST.map((tab, index) => (

@@ -26,6 +26,15 @@ const OurSpaces = () => {
                         spaceBetween={30}
                         pagination={{
                             type: 'fraction',
+                            renderFraction: (currentClass, totalClass) => {
+                                return `<span class="${currentClass}"></span><span> / </span><span class="${totalClass}"></span>`;
+                            },
+                            formatFractionCurrent: (number) => {
+                                return number < 10 ? `0${number}` : number;
+                            },
+                            formatFractionTotal: (number) => {
+                                return number < 10 ? `0${number}` : number;
+                            },
                         }}
                         navigation={{
                             prevEl: '.customPrev',
