@@ -72,7 +72,7 @@ const OurFacilities = () => {
                             {OUR_FACILITIES_DATA_LIST.map((tab, index) => (
                                 <SwiperSlide key={index}>
                                     <a href={`/${slugify(tab.description)}`}
-                                        className={`font-lato text-xl font-medium w-full text-nowrap flex justify-center lg:justify-start py-3.5 px-5 md:p-6 h-full leading-6 ${activeTab === index ? "text-white bg-off-orange shadow-9xl" : "text-off-black"}`}
+                                        className={`font-lato text-xl font-semibold w-full text-nowrap flex justify-center lg:justify-start py-3.5 px-5 md:p-6 h-full leading-6 ${activeTab === index ? "text-white bg-off-orange shadow-9xl" : "text-off-black"}`}
                                         onClick={(e) => { e.preventDefault(); handleClick(index, tab.description); }}>
                                         {tab.description}
                                     </a>

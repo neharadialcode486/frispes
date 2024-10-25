@@ -10,7 +10,7 @@ import { OUR_SPACE_DATA_LIST } from '../common/Helper';
 
 const OurSpaces = () => {
     return (
-        <section className='lg:py-24 md:py-20 sm:py-16 py-14'>
+        <section className='lg:py-24 md:py-20 sm:py-16 py-14' id='privacy'>
             <div className="container mt-4 pt-0.5">
                 <div className="flex justify-between flex-col md:flex-row md:flex-wrap lg:flex-nowrap items-center md:items-end">
                     <Heading className='text-deep-blue mb-1 sm:mb-2'>Our Spaces</Heading>

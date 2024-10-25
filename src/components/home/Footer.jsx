@@ -23,7 +23,7 @@ const Footer = () => {
                                 <h2 className='font-lato text-xl font-medium text-white opacity-50'>{items.title}</h2>
                                 <div className="flex flex-col gap-[9px] mt-3 sm:mt-6">
                                     {items.list.map((obj, lastIndex) => (
-                                        <a key={lastIndex} target={lastIndex === items.list.length - 2 ? "_blank" : undefined} rel={lastIndex === items.list.length - 2 ? "noreferrer" : undefined} href={obj.URL} className='w-fit font-lato font-normal text-white text-base transition-slow hover:text-off-orange leading-custom-xl'>{obj.subTitle}</a>
+                                        <a key={lastIndex} href={obj.URL} className='w-fit font-lato font-normal text-white text-base transition-slow hover:text-off-orange leading-custom-xl'>{obj.subTitle}</a>
                                     ))}
                                 </div>
                             </div>

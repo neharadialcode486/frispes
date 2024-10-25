@@ -81,26 +81,26 @@ export const WHO_USES_FRISPES_DATA_LIST = [
 export const FOOTER_DATA_LIST = [
     {
         title: "Spaces", list: [
-            { subTitle: "Co-working spaces", URL: "#" },
-            { subTitle: "Meeting rooms", URL: "#" },
-            { subTitle: "Event spaces", URL: "#" },
-            { subTitle: "Child playground", URL: "#" },
-            { subTitle: "Cafe & resto", URL: "#" },
+            { subTitle: "Co-working spaces", URL: "#workspace" },
+            { subTitle: "Meeting rooms", URL: "#privacy" },
+            { subTitle: "Event spaces", URL: "#events" },
+            { subTitle: "Child playground", URL: "#child" },
+            { subTitle: "Cafe & resto", URL: "#service" },
         ]
     },
     {
         title: "Company", list: [
-            { subTitle: "About Us", URL: "#" },
-            { subTitle: "Pricing", URL: "#" },
-            { subTitle: "Careers", URL: "#" },
-            { subTitle: "Press", URL: "#" },
+            { subTitle: "About Us", URL: "#workspace" },
+            { subTitle: "Pricing", URL: "#service" },
+            { subTitle: "Careers", URL: "#privacy" },
+            { subTitle: "Press", URL: "#events" },
         ]
     },
     {
         title: "Support", list: [
-            { subTitle: "FAQs", URL: "#" },
-            { subTitle: "Privacy Policy", URL: "#" },
-            { subTitle: "Help", URL: "#" },
+            { subTitle: "FAQs", URL: "#faq" },
+            { subTitle: "Privacy Policy", URL: "#privacy" },
+            { subTitle: "Help", URL: "#help" },
         ]
     },
 ]

@@ -36,7 +36,7 @@ const Hero = () => {
         <section className='sm:py-5 lg:pb-12 xl:pb-5 py-3 relative max-w-[1920px] mx-auto' id='hero'>
             <Header />
             <div className="container mt-16 pt-1.5 lg:pt-0 lg:mt-4 mb-14 relative z-10">
-                <p className='font-lato font-medium text-xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
+                <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
                     Introducing <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
                 </p>
                 <div className="flex justify-between lg:flex-row items-center lg:items-start flex-col gap-3 sm:gap-4 mt-1 sm:mt-2">
@@ -90,7 +90,7 @@ const Hero = () => {
                     <Button className='uppercase w-full py-3 mt-[22px] hover:!shadow-5xl'>FIND MY SPACE</Button>
                 </div>
             </div>
-            <img src={heroImage} alt="heroImage" className='max-w-[960px] w-full absolute bottom-0 right-0 shadow-10xl' />
+            <img src={heroImage} alt="heroImage" className='max-w-[960px] w-full lg:h-[598px] object-cover absolute bottom-0 right-0 shadow-10xl' />
         </section>
     );
 };
