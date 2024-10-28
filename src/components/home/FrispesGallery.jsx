@@ -12,7 +12,7 @@ const FrispesGallery = () => {
             <div className="container relative">
                 <div className="lg:right-5 lg:absolute mx-auto lg:mx-0 flex flex-col items-center lg:items-start mb-7 md:mb-10 top-0 z-10 max-w-[496px] w-full">
                     <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
-                        Frispes gallery <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
+                        Frispes gallery <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px]'></span>
                     </p>
                     <Heading className='text-deep-blue mt-2'>Immersive beautiful</Heading>
                     <Heading className='text-deep-blue'>co-working space gallery</Heading>
@@ -50,8 +50,14 @@ const FrispesGallery = () => {
                         1024: {
                             slidesPerView: 2.9,
                         },
+                        1200: {
+                            slidesPerView: 3.2,
+                        },
                         1280: {
-                            slidesPerView: 3.1,
+                            slidesPerView: 3.4,
+                        },
+                        1440: {
+                            slidesPerView: 3.85,
                         },
                     }}
                 >

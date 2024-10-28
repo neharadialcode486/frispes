@@ -69,7 +69,7 @@ const OurSpaces = () => {
                                         <p className='font-lora font-normal text-white text-center text-custom-3xl leading-10'>{items.title}</p>
                                         <p className='mt-3.5 text-white text-center font-medium font-lato text-lg max-w-[253px]'>Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
                                         <Icon iconName='grayLine' className='absolute top-4 right-4' />
-                                        <button className='bg-off-orange hover:bg-white hover:text-deep-blue border border-off-orange z-10 max-w-[255px] transition-slow w-full justify-end items-center flex h-[72px] gap-7 group-hover:gap-5 font-lato font-bold text-lg leading-5 text-white absolute bottom-0 left-0 p-5'>Check avaibility <Icon className='relative w-8 h-8 justify-center items-center' iconName='whiteLeftArrow' /></button>
+                                        <button className='bg-off-orange hover:bg-deep-blue shadow-inner shadow-off-orange border border-off-orange z-10 max-w-[255px] transition-slow w-full justify-end items-center flex h-[72px] gap-7 group-hover:gap-5 font-lato font-bold text-lg leading-5 text-white absolute bottom-0 left-0 p-5'>Check avaibility <Icon className='relative w-8 h-8 justify-center items-center' iconName='whiteLeftArrow' /></button>
                                     </div>
                                 </div>
                             </SwiperSlide>

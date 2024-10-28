@@ -15,11 +15,11 @@ const CustomersReviews = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center lg:items-end w-full">
                     <div className="flex flex-col max-w-[399px] w-full">
                         <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-off-black flex items-center w-fit mx-auto md:mx-0 gap-4'>
-                            Reviews <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
+                            Reviews <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px]'></span>
                         </p>
                         <Heading className='text-deep-blue mt-2 text-center md:text-left'>What our customers are saying</Heading>
                     </div>
-                    <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 lg:w-fit">
+                    <div className="flex gap-6 w-full justify-center md:mt-9 mt-4 pt-0.5 md:w-fit">
                         <Icon className='cursor-pointer prevButton group group transition-slow hover:scale-95' iconName='leftArrow' />
                         <Icon className='cursor-pointer nextButton group group transition-slow hover:scale-95' iconName='rightArrow' />
                     </div>

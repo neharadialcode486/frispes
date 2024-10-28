@@ -25,17 +25,24 @@ const OurFacilities = () => {
         setActiveTab(index);
         window.history.pushState(null, '', `/${slugify(text)}`);
     };
+    const [isVertical, setIsVertical] = useState(window.innerWidth >= 1024);
+    useEffect(() => {
+        const handleResize = () => setIsVertical(window.innerWidth >= 1024);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
         <section className='py-4' id='service'>
             <div className="container mt-12 lg:mt-20">
                 <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-off-black flex items-center w-fit mx-auto lg:mx-0 gap-4'>
-                    Our Facilities <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
+                    Our Facilities <span className='bg-off-black flex h-0.5 w-10 sm:w-[73px]'></span>
                 </p>
                 <Heading className='max-w-[570px] text-center lg:text-left mx-auto lg:mx-0 w-full text-deep-blue mt-2'>All facilities are designed to meet all your needs</Heading>
                 <div className="flex justify-between gap-5 lg:flex-row flex-col mt-5 sm:mt-8 lg:mt-12 pt-1">
                     <div className="lg:max-w-[347px] block w-full facilities">
                         <Swiper
+                            direction={isVertical ? 'vertical' : 'horizontal'}
                             slidesPerView={1.5}
                             spaceBetween={10}
                             loop={true}
@@ -51,7 +58,6 @@ const OurFacilities = () => {
                                     slidesPerView: 3,
                                 },
                                 1024: {
-                                    direction: 'vertical',
                                     spaceBetween: 0,
                                     slidesPerView: 5,
                                 }
@@ -83,8 +89,8 @@ const OurFacilities = () => {
                     <div className="max-w-[729px] w-full">
                         {OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab] && (
                             <img
-                                src={OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab].image}
-                                alt={OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab].image}
+                                src={OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab]}
+                                alt={OUR_FACILITIES_THUMNAIL_DATA_LIST[activeTab]}
                                 className='max-w-[729px] w-full h-full max-h-[208px] sm:max-h-[453px] object-cover'
                             />
                         )}

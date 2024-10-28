@@ -30,17 +30,10 @@ export const NAVBAR_DATA_LIST = [
 ]
 export const FIND_YOUR_SPACE_LIST = [
     {
-        title: "Location", location: [
-            { text: "Malang, Indonesia" },
-            { text: "USA" },
-            { text: "India" },
-        ]
+        title: "Location", location: ["Malang, Indonesia", "USA", "India",]
     },
     {
-        title: "Type", location: [
-            { text: "Private Office" },
-            { text: "Public Office" },
-        ]
+        title: "Type", location: ["Private Office", "Public Office",]
     },
     {
         title: "Date", text: "9 Aug 2020",
@@ -107,7 +100,7 @@ export const FOOTER_DATA_LIST = [
 export const FOOTER_CONTACT_DATA_LIST = [
     { title: "E.", subTitle: "Hello@frispes.com", URL: "mailto:Hello@frispes.com" },
     { title: "A.", subTitle: "Jalan Jayakatwang  No.301 Ngasem, Kediri", URL: "https://www.google.com/maps/place/Jl.+Jaya+Katwang+No.301,+Karangrejo,+Kec.+Ngasem,+Kabupaten+Kediri,+Jawa+Timur+64182,+Indonesia/@-7.7953201,112.037584,877m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2e785753db52fefb:0xb1882e6f0a6f34b5!8m2!3d-7.7953201!4d112.0401589?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" },
-    { title: "P.", subTitle: "(+62) 82334670000", URL: "callto:82334670000" },
+    { title: "P.", subTitle: "(+62) 82334670000", URL: "tel:82334670000" },
 ]
 export const SOCIAL_MEDIA_DATA_LIST = [
     { icon: "insta", URL: "https://www.instagram.com/accounts/login/?hl=en" },
@@ -140,12 +133,4 @@ export const OUR_FACILITIES_DATA_LIST = [
     { title: "parking", description: "Spacious parking area" },
     { title: "spaces", description: "Comfortable spaces" },
 ];
-export const OUR_FACILITIES_THUMNAIL_DATA_LIST = [
-    { image: coffee },
-    { image: team },
-    { image: gallery },
-    { image: work },
-    { image: coffee },
-    { image: coffee },
-    { image: coffee },
-]
+export const OUR_FACILITIES_THUMNAIL_DATA_LIST = [coffee, team, gallery, work, coffee, coffee, coffee,]

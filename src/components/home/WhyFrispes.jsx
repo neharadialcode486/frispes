@@ -25,7 +25,7 @@ const WhyFrispes = () => {
                     </div>
                     <div className="max-w-[540px] w-full bg-deep-blue p-7 sm:p-[53px]">
                         <p className='font-lato font-medium text-xl lg:leading-custom-2xl text-white flex items-center w-fit mx-auto lg:mx-0 gap-4'>
-                            Why Frispes <span className='bg-white flex h-0.5 w-10 sm:w-[73px] mt-1.5'></span>
+                            Why Frispes <span className='bg-white flex h-0.5 w-10 sm:w-[73px]'></span>
                         </p>
                         <Heading className='text-white mt-2 text-center lg:text-left'>We revolutionize your workspace</Heading>
                         <Paragraph className='text-white mt-6 text-center lg:text-left'>With a decade of insights and expertise, we're decided to reimagine co-working space, designed to help a new startup grow up and realize their ideas so they can give a positive impacts on many people</Paragraph>
